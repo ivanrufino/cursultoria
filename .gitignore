@@ -2,6 +2,8 @@
 ## Eclipse
 #################
 
+nbproject/
+
 *.pydevproject
 .project
 .metadata
