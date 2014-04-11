@@ -1,0 +1,37 @@
+#mainframe .alert { font-family:'Open sans', Atial; font-size:13px;}
+#mainframe .alert i { margin-right:5px;}
+
+#mainframe #tickets  { float:left; width:670px; height:auto; background:#f4f4f4; padding: 10px; margin-bottom:10px; }
+#mainframe #tickets #texto_quantidade_tickets{ float:left; font-family:'Open sans', Atial; font-size:14px; margin-top:5px;}
+#mainframe #tickets a{ float:right; text-decoration:none;}
+
+#mainframe #tit_tickets_abertos { display: block;margin-bottom:10px; }
+#mainframe #tit_tickets_abertos p { margin-top:10px;}
+#mainframe #tit_tickets_abertos b {margin-top:10px; font: 20px Source Sans Pro, sans-serif; letter-spacing: 0px;color: #AAA;}
+#mainframe #tit_tickets_abertos .well{ margin-top:5px;}
+
+#mainframe #tit_tickets_fechados { float:left; margin-bottom:10px;}
+#mainframe #tit_tickets_fechados b {margin-bottom:10px; font: 20px Source Sans Pro, sans-serif; letter-spacing: 0px;color: #AAA;}
+
+#modalTicket .modal-header { background-color:<?=$cor_default?>; color:#fff; -webkit-border-top-left-radius: 3px;-webkit-border-top-right-radius: 3px;-moz-border-radius-topleft: 3px;-moz-border-radius-topright: 3px;border-top-left-radius: 3px; border-top-right-radius: 3px;}
+#modalTicket .modal-header h3 b { font: 18px "Open Sans", Arial, Helvetica, sans-serif;padding-bottom: 5px;}
+
+#modalTicket .modal-body { background-color:whiteSmoke;}
+#modalTicket .modal-body p.alert { font-size: 13px ;font-family:"Open Sans", Arial, Helvetica, sans-serif;}
+
+#modalTicket .modal-body #campos_novo_ticket { display:block; overflow:auto;}
+#modalTicket .modal-body #campos_novo_ticket p {font-size: 13px ;font-family:"Open Sans", Arial, Helvetica, sans-serif;}
+#modalTicket .modal-body #campos_novo_ticket .campo { float:left; width:200px;}
+#modalTicket .modal-body #campos_novo_ticket .campo p {font-size: 13px ;font-family:"Open Sans", Arial, Helvetica, sans-serif;}
+#modalTicket .modal-body #campos_novo_ticket input{ width:515px;}
+#modalTicket .modal-body #campos_novo_ticket textarea { width:515px; height:100px}
+
+#tickets_fechados {font: 12px "Open Sans", Helvetica, sans-serif;width: 100%;font-weight: 600;margin: 0px;text-transform: uppercase;color:#676568;}
+#tickets_fechados thead{background-color: #eeeeee;}
+#tickets_fechados tr td .label{font: 11px "Open Sans", Helvetica, sans-serif;float: right;width: auto;font-weight: 600;margin: 0px;color: white;padding: 3px 8px;text-transform: uppercase;}
+#tickets_fechados tr td a{ text-decoration:none;}
+
+#tickets_abertos {font: 12px "Open Sans", Helvetica, sans-serif;width: 100%;font-weight: 600;margin: 0px;text-transform: uppercase;color:#676568;}
+#tickets_abertos thead{background-color: #eeeeee;}
+#tickets_abertos tr td .label{font: 11px "Open Sans", Helvetica, sans-serif;float: right;width: auto;font-weight: 600;margin: 0px;color: white;padding: 3px 8px;text-transform: uppercase;}
+#tickets_abertos tr td a{ text-decoration:none;}

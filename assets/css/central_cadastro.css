@@ -1,0 +1,21 @@
+#mainframe p { font-family:Open Sans, Arial, Helvetica, sans-serif; font-size:13px; margin-bottom:10px;}
+#mainframe  #contatos { }
+#mainframe	#detalhes_cad { float:left; overflow:auto;  width:403px; padding:5px 5px 5px 10px; }
+#mainframe	#detalhes_cad .label_cad{ float:left; color:#666; font: 13px "Open Sans", Arial, Helvetica, sans-serif; }
+#mainframe	#detalhes_cad .label_cad b{ font:14px "Open Sans", Helvetica, sans-serif;  font-weight:bold; color:#333;}
+
+#mainframe	#aviso_cad { float:right; height:70px; margin:10px 5px 10px 0; background:#f4f4f4; width:220px; padding: 10px 15px 10px 15px;}
+#mainframe	#aviso_cad p { float:left; font: 11px Arial, Helvetica, sans-serif; color:#666; }
+#mainframe	#aviso_cad p i {float:left; margin: 0;}
+#mainframe	#aviso_cad p b { float:left; margin: 10px 10px 0;  font: 14px "Open Sans", Arial, Helvetica, sans-serif; font-weight:600; }
+
+#mainframe	#detalhes_cad .label_cad_tel p{border: 1px #F00 solid; color:#666; font: 13px "Open Sans", Arial, Helvetica, sans-serif; }
+#mainframe	#detalhes_cad .label_cad_tel input{ font-family:"Open Sans", Arial, Helvetica, sans-serif; font-size:14px;}
+#mainframe	#detalhes_cad .label_cad_tel p .input_sem_espaço{ float:left; margin-bottom:0px;}
+#mainframe	#detalhes_cad .label_cad_tel .buttonCEP{ font-size:13px; font-family:"Open Sans", Arial, Helvetica, sans-serif; font-weight:bold;}
+
+.btCEP{font-weight:600; font-size:12px; font-family:"Open Sans", Arial, Helvetica, sans-serif;}
+.btSub{font-weight:600; font-size:12px; font-family:"Open Sans", Arial, Helvetica, sans-serif;}
+.btSubmitCadastro{font-weight:600; display:block; font-size:13px; font-family:"Open Sans", Arial, Helvetica, sans-serif;}
+
+#mainframe #areasubmit{ display:block; border-top:1px dotted #eee; padding-top:10px; padding-bottom:30px;}

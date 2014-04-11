@@ -1,0 +1,253 @@
+@font-face {
+  font-family: "Franklin Gothic Demi Cond";
+ src: url(../fonts/FRADMCN.TTF);
+}
+@font-face {
+  font-family: "Franklin Gothic Medium Cond";
+ src: url(../fonts/FRAMDCN.TTF);
+}
+@font-face {
+  font-family: "Tw Cen MT Condensed Extra Bold";
+ src: url(../fonts/TCCEB.TTF);
+}
+@font-face {
+  font-family: "MyriadPro-Bold";
+ src: url(../fonts/MyriadPro-Bold.otf);
+}
+@font-face {
+  font-family: "Ubuntu";
+ src: url(../fonts/Ubuntu-Regular.ttf);
+}
+@font-face {
+  font-family: "Ubuntu Medium";
+ src: url(../fonts/Ubuntu-Medium.ttf);
+}
+
+*{ padding:0; margin:0;}
+body{ background:#b4d6d5;}
+#wrapp{ width:100%; margin:0 auto; background:#fff; height:auto; overflow:auto;}
+/* ------------------------------------------------------------------------------------*/
+
+#loading{
+  position:absolute;
+  width:100%;
+  height:100%;
+  top:0;
+  left:0;
+  z-index:9000;
+  background:url(../../assets/css/custom-theme/images/ui-bg_dots-small_100_000000_2x22.png);
+}
+  
+#loading_div{
+	width:131px;
+	height:40px;
+	position:absolute;
+	left:50%;
+	top:50%;
+	z-index:9999;
+	margin-left:-65px;
+	margin-top:-20px;
+	background:#fff;
+	border:1px solid #333;
+}
+#loading_div img{ float:left;}
+#loading_div p{ float:left; margin-top:12px; font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#666;}
+
+/* ---------------------------------------------------------------------- L O A D I N G */
+
+
+#navigate_menu{ float:left; width:225px; overflow:auto; background:url(../../assets/images/bg_left_frame.jpg) bottom left no-repeat; height:100%; min-height: 100%; position:fixed; font-family: Arial; font-size: 11px; color:#ffffff;}
+
+#logo{ float:right; margin-right:15px; margin-top:20px; text-align:right; margin-bottom:30px; color:#555;}
+#logo b{ color:#000;}
+#logo a{ text-decoration:none; color:#9f382c; font-weight:bold;}
+#logo a:hover{ color:#e37611;}
+
+#navigate_poweredby{ float:left; bottom:0px; position:absolute; margin-bottom:15px; padding-left:25px; }
+
+.tit_menu{ background:url(../../assets/images/bg_tit_menu.jpg) repeat-x; width:173px; padding:5px 10px; height:25px; float:left;}
+.tit_menu span a{ font:12px "Segoe UI"; font-weight:bold; color:#fff; text-decoration:none;}
+.tit_menu span a:hover{ text-decoration:underline;}
+.tit_menu img{ float:left; margin-right:5px;}
+
+.tit_submenu a{ background:url(../../assets/images/bt_submenu_out.gif); float:left; width:183px; text-decoration:none; padding:5px 0px 5px 10px; line-height:10px; height:14px; font:11px "Segoe UI"; font-weight:bold; color:#444;}
+.tit_submenu a:hover{ background:url(../../assets/images/bt_submenu_over.gif);}
+
+
+#navigate_mainMenu{
+	width:205px; float:right; text-align:right;
+}
+
+
+ul#navigate_mainMenu{list-style-type:none; text-decoration:none;}
+ul#navigate_mainMenu li{ position:relative; float:left; text-decoration:none; border:0;}
+ul#navigate_mainMenu li a{ display:block; width:174px; cursor:pointer; float:left; padding:0 15px; background:url(../../assets/images/bt_menu_off.gif) right; height:30px; text-decoration:none; color:#fff; font: 12px Arial; font-weight:bold; line-height:29px; margin-bottom:5px;}
+ul#navigate_mainMenu li a:hover{background:url(../../assets/images/bt_menu_on.gif) right;}
+
+ul#navigate_mainMenu li ul{ display:none; position:absolute; float:left; margin-left:0px; top:30px; left:0px; list-style-type:none;}
+ul#navigate_mainMenu li:hover ul{ display:block; margin:0 auto; width:140px; background:#003b55; padding:5px 10px; overflow:hidden;}
+ul#navigate_mainMenu li ul li a{ width:120px; margin-left:-5px; background:#003b55; border-bottom:1px dotted #00618b; font:11px Arial; color:#fff; height:auto; padding-top:3px; padding-bottom:3px;}
+ul#navigate_mainMenu li ul a:hover{ background:#00618b;}
+
+#navigate_mainApps{
+	width:205px; float:right; text-align:right; margin-bottom:20px;
+}
+
+
+ul#navigate_mainApps{list-style-type:none; text-decoration:none;}
+ul#navigate_mainApps li{ position:relative; float:left; text-decoration:none; border:0;}
+ul#navigate_mainApps li a{ display:block; width:174px; cursor:pointer; float:left; padding:0 15px; background:url(../../assets/images/bt_menu_apps_off.gif) right; height:30px; text-decoration:none; color:#fff; font: 12px Arial; font-weight:bold; line-height:29px; margin-bottom:5px;}
+ul#navigate_mainApps li a:hover{background:url(../../assets/images/bt_menu_apps_on.gif) right;}
+
+ul#navigate_mainApps li ul{ display:none; position:absolute; float:left; margin-left:0px; top:30px; left:0px; list-style-type:none;}
+ul#navigate_mainApps li:hover ul{ display:block; margin:0 auto; width:140px; background:#003b55; padding:5px 10px; overflow:hidden;}
+ul#navigate_mainApps li ul li a{ width:120px; margin-left:-5px; background:#003b55; border-bottom:1px dotted #00618b; font:11px Arial; color:#fff; height:auto; padding-top:3px; padding-bottom:3px;}
+ul#navigate_mainApps li ul a:hover{ background:#00618b;}
+
+/* -------------------------------------------------------------------------------------------------*/
+
+
+
+.page_buttons a{ float:left; padding:8px; border:1px solid #ccc; text-align:center; text-decoration:none; font:11px Tahoma, Arial; color:#666;}
+.page_buttons img a{ float:left; text-align:center; text-decoration:none; border:0px;}
+
+/*-----------------------------------------------------------------------------*/
+#content_session{ padding:5px;}
+#breadcrumb{ background:#fff0a5; border:1px solid #fed22f; padding:5px; font:11px Tahoma, Arial; overflow:auto; color:#000; display:block;}
+#breadcrumb img{ float:left; margin-left:5px;}
+#breadcrumb p{ float:left; margin-left:5px; margin-top:2px;}
+#tit_session{ color:#ff6600; font:28px "Franklin Gothic Medium Cond"; display:block; padding:10px 0; border-bottom:1px dotted #ccc;}
+
+#tools_sys{ display:block; padding:7px 0; margin-bottom:10px;}
+.bt_tools a{ height:65px; text-align:center; overflow:hidden; margin-right:5px; text-decoration:none; float:left; padding:5px; -moz-border-radius:5px;-webkit-border-radius:5px; border:0px solid #ccc; cursor:pointer;}
+.bt_tools a img{ text-align:center;}
+.bt_tools a p{  text-align:center; margin-top:5px; text-decoration:none; clear:both; padding:0 10px; margin-left:5px; font-family: Arial; font-size:12px; font-weight:bold; color:#666;}
+.bt_tools a:hover{  background:#e8e8e8;}
+
+.table_busca_div{ float:left; margin-top:5px; padding:5px; width:99%; background:#666e73; border:1px solid #4d5255;}
+.txt_busca_coluns{ font:12px Tahoma; color:#ffffff; font-weight:bold;}
+.input_busca{ float:left; margin-left:5px; padding:4px; font:14px Tahoma; color:#666666; width:200px;}
+.filtro_busca{ float:left; margin-left:5px; height:24px; font:12px Tahoma; color:#666666;}
+.btn_busca{ float:left; margin-left:5px;}
+.admin_list_table{ float:left; width:100%; padding-top:0px;}
+.table_pages_div{ float:left; padding:3px; width:99%; margin-top:10px; margin-bottom:10px; border:1px dotted #f0f0f0; overflow:hidden;}
+.fl_left{ float:left;}
+.fl_right{ float:right;}
+
+div#users-contain { width: 100%; }
+	div#users-contain table { border-collapse: collapse;  }
+	div#users-contain table th { border: 1px solid #eee; font-family:Arial, sans-serif; padding:5px 5px 5px 7px; text-align: left;}
+	div#users-contain table td { border: 1px solid #eee; font-family:Tahoma, Arial, sans-serif; color:#333; font-size:12px; padding:7px 5px 7px 7px;}
+	div#users-contain table td a{ text-decoration:none; cursor:pointer;}
+	div#users-contain table td a:hover{ text-decoration:underline;}
+	
+
+.td_line_alter:hover		{ background:#fcf5dd; color:#000;}
+.td_line:hover			{ background:#fcf5dd; color:#000;}
+.td_line				{ background:#fff;}
+.td_line_alter			{ background:#f6f6f6; color:#000;}
+.td_line_selected		{ background:#f1bbbb; color:#000;}
+
+/* ----------------------------------------------------------------------- Forms PopUp */
+#pop_cadastro_contatos{ width:100%;}
+#pop_cadastro_contatos fieldset{ float:left; width:670px; margin-bottom:15px; padding:0px; border:0px;}
+#pop_cadastro_contatos legend{ padding:2px 0; color:#cf4e00; font:18px "Franklin Gothic Medium Cond", Arial; text-transform:uppercase;}
+
+#pop_cadastro_contatos label{ float:left; font:12px Arial; line-height:18px; margin-right:15px; font-weight:bold; color:#666; margin-top:2px; }
+#pop_cadastro_contatos label span{ font:12px Tahoma, Arial; color:#333; margin-top:3px; float:left;}
+#pop_cadastro_contatos label p{font:12px Tahoma, Arial; color:#777; margin-top:3px; float:left;}
+#pop_cadastro_contatos input[type="submit"]{ padding:3px 10px; text-transform:none; font:12px Arial; font-weight:bold; color:#fff; background:url(../../assets/images/icons/btn_bg.gif); border:1px solid #d25e00;}
+#pop_cadastro_contatos input[type="submit"]:hover{background:url(../../assets/images/icons/btn_over_bg.gif);}
+#pop_cadastro_contatos input[type="button"]{ padding:3px 10px; font:12px Arial; font-weight:bold; color:#555; background:url(../../assets/images/icons/btn_back_bg.gif); border:1px solid #ccc;}
+#pop_cadastro_contatos input[type="button"]:hover{border:1px solid #aaaaaa;}
+
+#pop_cadastro_contatos .line{ float:left; line-height:20px; margin-top:2px; width:100%; color:#666; font:12px Tahoma; }
+
+
+#pop_view{ width:100%; z-index:0;}
+#pop_view fieldset{ float:left; width:670px; border:0px;}
+#pop_view legend{ padding:2px 0; color:#cf4e00; font:18px "Franklin Gothic Medium Cond", Arial; text-transform:uppercase;}
+
+#pop_view label{ float:left; font:12px Arial; line-height:18px; margin-right:15px; font-weight:bold; color:#666; margin-top:2px; }
+#pop_view label span{ font:12px Tahoma, Arial; color:#333; margin-top:3px; float:left;}
+#pop_view label p{font:11px Arial; color:#666; margin-top:3px; float:left;}
+#pop_view input[type="submit"]{ padding:4px 10px; text-transform:none; font:12px Arial; font-weight:bold; color:#fff; background:url(../../assets/images/icons/btn_bg.gif); border:1px solid #d25e00;}
+#pop_view input[type="submit"]:hover{background:url(../../assets/images/icons/btn_over_bg.gif);}
+#pop_view input[type="button"]{ padding:3px 10px; font:12px Arial; font-weight:bold; color:#555; background:url(../../assets/images/icons/btn_back_bg.gif); border:1px solid #ccc;}
+#pop_view input[type="button"]:hover{border:1px solid #aaaaaa;}
+
+#pop_view .line{ float:left; line-height:20px; margin-top:2px; width:100%; color:#666; font:12px Tahoma; }
+
+/* ---------------------------------------------------------------------- Form Financeiro */
+#valores_financeiro{ float:left; width:100%; margin-top:10px; height:60px; background:#f0f0f0; display:block;}
+.label_financeiro{ text-align:center; font:12px Arial; font-weight:bold; color:#666; bottom:0px; padding-top:8px;}
+.values_financeiro{ text-align:center; font:22px Arial; font-weight:bold; height:30px;}
+.val_positivo{ color:#277a5e}
+.val_negativo{ color:#db0c14;}
+
+#juridica{ display:none;}
+
+.flag{ float:left; margin-left:5px;}
+.tag_red{float:left; margin-left:5px; color:#fff; background:#c13d2c; padding:3px 7px; text-transform:uppercase; font:11px Arial; font-weight:bold; -moz-border-radius:3px;-webkit-border-radius:3px;}
+.tag_yellow{float:left; margin-left:5px; color:#fff; background:#e4ac10; padding:3px 7px; text-transform:uppercase; font:11px Arial; font-weight:bold; -moz-border-radius:3px;-webkit-border-radius:3px;}
+.tag_green{float:left; margin-left:5px; color:#fff; background:#55b449; padding:3px 7px; text-transform:uppercase; font:11px Arial; font-weight:bold; -moz-border-radius:3px;-webkit-border-radius:3px;}
+.tag_blue{float:left; margin-left:5px; color:#fff; background:#3a6da1; padding:3px 7px; text-transform:uppercase; font:11px Arial; font-weight:bold; -moz-border-radius:3px;-webkit-border-radius:3px;}
+.tag_black{float:left; margin-left:5px; color:#fff; background:#333; padding:3px 7px; text-transform:uppercase; font:11px Arial; font-weight:bold; -moz-border-radius:3px;-webkit-border-radius:3px;}
+
+.tx_pequeno{clear:right; padding:2px 5px; font:10px Tahoma, Arial; text-transform:none;}
+
+#painel td{ border-left:1px solid #eee; border-bottom:1px solid #eee; padding:5px; font:12px Tahoma, Arial; text-align:left; color:#333; padding:6px 5px;}
+#painel th{ background:#e6e6e6; border-left:1px solid #eee; border-top:1px solid #eee; padding:6px 5px; text-align:left;  font:12px Tahoma, Arial; color:#666;}
+#painel tr{ background:#f5f5f5;}
+#painel .final{ border-right:1px solid #ddd;}
+#painel .tr_sim{ background:#f9f9f9;}
+#painel .verde{ color:#090;}
+#painel .vermelho{ color:#c00;}
+#painel th a{ text-align:center; background:url(../images/bg_botoes.gif) repeat-x; padding:5px; border:1px solid #d0d0d0; margin-right:5px; font:12px Tahoma, Arial; display:inline; text-decoration:none;}
+
+#painel .extrato{ background:#e6e6e6;}
+
+#painel tr:hover{ background:#feefe7;}
+
+#painel a{float:left; text-decoration:none; border-bottom:1px solid #f4f4f4; font-weight:normal; color:#666; display:block;}
+#painel a:hover{ border-bottom:1px dotted #333;}
+
+/* ---------------------------------------------- Pedidos ------ */
+#pedido_header{ display:block; overflow:auto;}
+.pedido_numero{ float:left;}
+.pedido_numero b{font:23px "Franklin Gothic Medium Cond"; color:#333; text-transform:uppercase;}
+.pedido_numero p{font:12px Tahoma, Arial; color:#666;}
+
+b.pedido_status{ float:right; font:20px "Franklin Gothic Medium Cond"; margin-top:6px;}
+
+#pedido_cliente{ float:left; width:325px; padding:5px; overflow:auto; margin-top:5px; background:#e9e9e9; border:1px solid #e0e0e0;}
+#pedido_endereco{ float:right; width:325px; padding:5px; overflow:auto; margin-top:5px; background:#e9e9e9; border:1px solid #e0e0e0;}
+#fatura_resumo{ float:right; height:106px; width:325px; padding:5px; overflow:auto; margin-top:5px; background:#e9e9e9; border:1px solid #e0e0e0;}
+
+#pedido_cliente p{ font:12px Tahoma, Arial; color:#454;}
+#pedido_endereco p{ font:12px Tahoma, Arial; color:#454;}
+#fatura_resumo p{ font:12px Tahoma, Arial; color:#454;}
+#fatura_resumo span{ font:16px Tahoma, Arial; color:#c00;}
+
+#pedido_cliente b{ display:block; font:12px Arial; margin-bottom:2px; font-weight:bold; height:20px; color:#cf4e00; background:url(../images/icons/_icon_user.png) left center no-repeat; padding-left:22px; padding-top:4px;}
+#pedido_endereco b{ display:block; font:12px Arial; margin-bottom:2px; font-weight:bold; height:20px; color:#cf4e00; background:url(../images/icons/_icon_pin.png) left center no-repeat; padding-left:22px; padding-top:4px;}
+#fatura_resumo b{ display:block; font:12px Arial; margin-bottom:2px; font-weight:bold; height:20px; color:#cf4e00; background:url(../images/icons/_icon_list.png) left center no-repeat; padding-left:22px; padding-top:4px;}
+
+
+.pedido_lista b{display:block; float:left; font:12px Arial; margin-bottom:2px; margin-top:5px; font-weight:bold; height:20px; color:#cf4e00; background:url(../images/icons/_icon_cart_black.png) left center no-repeat; padding-left:22px; padding-top:4px;}
+#pedido_total{ float:right; display:block; background:#e5e5e5; padding:5px; margin-top:5px;}
+#pedido_total p{ font:12px Tahoma, Arial; color:#333; margin-bottom:3px;}
+#pedido_total p b{ font-weight:bold; width:90px; float:right; text-align:right;}
+
+b.pedido_total_descricao{display:block; margin-top:5px; margin-left:10px; float:left; font:12px Arial; margin-bottom:1px; font-weight:bold; height:20px; color:#cf4e00; background:url(../images/icons/_icon_info2.png) left center no-repeat; padding-left:22px; padding-top:4px;}
+b.fatura_descricao{display:block; margin-top:5px; margin-left:10px; float:left; font:12px Arial; margin-bottom:1px; font-weight:bold; height:20px; color:#cf4e00; background:url(../images/icons/_icon_list.png) left center no-repeat; padding-left:22px; padding-top:4px;}
+#pedido_total_descricao{ float:right; margin-right:5px; display:block; padding:5px; width:260px;}
+#pedido_total_descricao p{ font:11px Tahoma, Arial; display:block; color:#666; text-align:left;}
+
+.pedido_pagamento{ float:left; margin-top:5px; width:200px; overflow:auto; border-right:1px dotted #d0d0d0;}
+.pedido_pagamento b{display:block; float:left; font:12px Arial; margin-bottom:2px; font-weight:bold; height:20px; color:#cf4e00; background:url(../images/icons/_icon_money_black.png) left center no-repeat; padding-left:22px; padding-top:4px;}
+.pedido_pagamento p{display:block; clear:both; font:14px "Franklin Gothic Medium Cond", Arial; color:#454; text-transform:uppercase; margin-bottom:2px; margin-top:5px; }
+.pedido_pagamento span{display:block; color:#666; clear:both; font:11px Tahoma, Arial; text-transform:uppercase; margin-top:2px; }
+.pedido_pagamento span strong{ font:11px Arial; text-transform:none; font-weight:bold;}
+
+p.fatura_total{display:block; clear:both; font:14px "Franklin Gothic Medium Cond", Arial; color:#454; text-transform:uppercase; margin-bottom:2px; margin-top:5px; }

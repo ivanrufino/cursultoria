@@ -1,0 +1,56 @@
+*{margin:0; padding:0; outline:none;}
+
+body {
+	background-image: url(../../assets/images/header/bg_login.jpg);
+	background-position:top right;
+	background-repeat:no-repeat;
+	background-color:#fcfcfc;
+}
+
+#wrapp{
+	float:left;
+	width:591px;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-295px;
+	margin-top:-160px;
+}
+
+p{ font:13px Tahoma, Arial;}
+#logo{ float:left; width:100%;}
+
+#content{  width:100%; height:240px; background:#f6f5f3; margin-top:45px; border:1px solid #e9e9e9;}
+
+#footer{ float:left; width:100%; margin-top:5px; font:11px Tahoma; color:#444;}
+
+#col-left{ float:left; width:278px; height:227px; background:#FFFFFF; border:1px solid #e9e9e9; margin-left:5px; margin-top:5px;}
+
+#col-right{ float:left; height:227px; width:295px; background:url(../../assets/images/login/bg_col-right.gif); margin-left:5px; margin-top:5px;}
+
+
+
+.tit_form{ float:left; margin-top:19px; margin-left:13px; font:13px Tahoma; font-weight:bold; color:#666;}
+
+.tit_input{ float:left; margin-left:13px; color:#606060; font:12px Tahoma; width:70%;}
+
+.input{ float:left; margin-left:13px; border:1px solid #ebebeb; height:15px; padding:3px; background:url(../../assets/images/login/bg_input.gif); width:230px; font:11px Tahoma; margin-top:5px; color:#666666;}
+
+.warning{ float:right; margin-right:25px; margin-top:15px; font:11px Tahoma; color:#FF0000; font-weight:bold;}
+
+.register a{ float:right; margin-right:25px; margin-top:5px; font:11px Tahoma; color:#999; text-decoration:none;}
+
+.register a:hover{ float:right; margin-right:25px; margin-top:5px; font:11px Tahoma; color:#000; text-decoration:underline;}
+
+.remenber a{ float:right; margin-right:25px; margin-top:15px; font:11px Tahoma; color:#999; text-decoration:none;}
+
+.remenber a:hover{ float:right; margin-right:25px; margin-top:15px; font:11px Tahoma; color:#000; text-decoration:underline;}
+
+
+.submit {float:left; margin-left:13px; margin-top:10px; padding:5px 10px; text-transform:none; font:12px Tahoma, Arial; font-weight:bold; color:#fff;background:url(../../assets/images/button_hover.gif) repeat-x #f8ba01; border:1px solid #ff6600;}
+.submit:hover{background:url(../../assets/images/bg_submit.gif) repeat-x #ff7800; border:1px solid #ff3c00; }
+
+
+.ontype{ float:left; margin-left:13px; border:1px solid #555; height:15px; padding:3px; background:url(../../assets/images/login/bg_input.gif); width:230px; font:12px Tahoma; margin-top:5px; color:#666666;}
+
+.offtype{float:left; margin-left:13px; border:1px solid #ebebeb; height:15px; padding:3px; background:url(../../assets/images/login/bg_input.gif); width:230px; font:12px Tahoma; margin-top:5px; color:#666666;}

@@ -1,0 +1,73 @@
+#mainframe {font-family:"Lucida Sans", Arial, Helvetica, sans-serif;}
+
+#mainframe #table_detalhesServico {font: 12px "Lucida Sans", Helvetica, sans-serif; width: 100%; margin: 0px;}
+#mainframe #table_detalhesServico thead{background-color:#e8e8e8; text-transform: uppercase;}
+#mainframe #table_detalhesServico thead tr th .label{ width:60px; text-align:center; color:white;}
+#mainframe #table_detalhesServico tr td:first-of-type{ width:180px; background-color:#eee; font: 14px "Open Sans", Helvetica, sans-serif; font-weight:600; text-align:right;}
+#mainframe #table_detalhesServico tr td:nth-of-type(2){ background-color: #f6f6f6;}
+
+#mainframe #table_detalhesServico #statusServico{ float:left; width:150px;}
+#mainframe #table_detalhesServico #statusServico span{ float:left; color:#F5F5F5;}
+#mainframe #table_detalhesServico #dataServico{ float:right; text-transform: none;}
+#mainframe #tab_gerenciamentoDetalhesServico { font-family:"Lucida Sans", Helvetica, sans-serif; }
+
+#mainframe #central_subtit{ margin-bottom:15px;}
+#mainframe #content_gerenciamentoDetalhesServico{margin-bottom:15px; padding:5px;}
+#mainframe #content_gerenciamentoDetalhesServico .active{color: #000;}
+
+#mainframe .tab-pane{font-family:"Lucida Sans", Helvetica, sans-serif;}
+
+/* TAB - ALTERAR SENHA */
+#mainframe #mudarSenha #form_trocaSenhaCliente{ float:left; width:400px; font: 12px "Lucida Sans", Helvetica, sans-serif;}
+#mainframe #mudarSenha #form_trocaSenhaCliente .controls span{ padding:5px;height: auto;}
+
+/* TAB - MUDAR PLANO */
+
+#mainframe #trocarPlano .novoPlano{ display:block; height:70px; background:#e8e8e8; margin-bottom:5px; font:13px "Open Sans", Helvetica, sans-serif;}
+#mainframe #trocarPlano .novoPlano .nome_plano{ float:left; width:225px; height:55px; padding-top:5px;  margin-top:8px; margin-left:10px;}
+#mainframe #trocarPlano .novoPlano .label{ float:left; width:5px; height:60px; background:none; margin-top:8px; margin-left:10px;}
+#mainframe #trocarPlano .novoPlano .label [type="radio"]{ margin-top:20px;}
+#mainframe #trocarPlano .novoPlano .nome_plano b{ font-size:18px; font-weight:600;}
+#mainframe #trocarPlano .novoPlano .nome_plano b.preco{ font-size:14px; display:block; clear:both; font-weight:600; color:#363;}
+#mainframe #trocarPlano .novoPlano .nome_plano p{ display:block; line-height:18px; height:20px;}
+#mainframe #trocarPlano .novoPlano .nome_plano b.feature{ font-size:16px; display:block; float:left; clear:both;}
+
+#mainframe .novoPlano .desc_plano{ float:left; width:100px; height:55px; padding-top:5px; margin-top:8px; margin-left:12px;}
+#mainframe .novoPlano .desc_plano b{ float:left; clear:both; margin:0px; font-size:20px; display:block; color:#363;}
+#mainframe .novoPlano .desc_plano p{ float:left; margin:0px; font-size:11px; color:#666; text-transform:uppercase;}
+
+/* TAB - SOLICITAR CANCELAMENTO */
+#mainframe #solicitarEncerramento #form_cancelamentoServico{ font: 12px "Lucida Sans", Helvetica, sans-serif;}
+#mainframe #solicitarEncerramento #form_cancelamentoServico .alert{display: block; padding: 15px; overflow: auto;}
+#mainframe #solicitarEncerramento #form_cancelamentoServico #infCancelamento { float:left; width:350px;}
+#mainframe #solicitarEncerramento #form_cancelamentoServico #infCancelamento span{ margin-bottom:8px;}
+#mainframe #solicitarEncerramento #form_cancelamentoServico #infCancelamento li{ color:#666; margin-top:5px;}
+#mainframe #solicitarEncerramento #form_cancelamentoServico #dominioCancelar{ display: block; font-weight:bold;  color:#C00; font-size:26px; font-family: "Open sans", Arial ; margin-bottom:10px; letter-spacing:-1px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

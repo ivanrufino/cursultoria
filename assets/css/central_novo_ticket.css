@@ -1,0 +1,14 @@
+#mainframe #central_tit{height:40px; display:block; padding-top:10px; font:25px "Open Sans", sans-serif; letter-spacing:-1px; color:#aaa; }
+#mainframe #central_tit #submit_novoTicket #lista_departamentos{line-height: 6px!important;}
+#mainframe #submit_novoTicket {display: block;overflow: auto;background: #f4f4f4;}
+#mainframe #submit_novoTicket #botoes{ overflow:auto; padding:15px; background-color:#f8f8f8; border-top:1px solid #CCC;}
+#mainframe #submit_novoTicket #campos_novo_ticket{ padding:0px 15px;}
+.obrigatorio{font-size:10px!important;color:red!important; overflow:auto!important; display:initial!important; font-family:Tahoma, Geneva, sans-serif}
+#mainframe #submit_novoTicket textarea{ resize:vertical;}
+#mainframe #submit_novoTicket .combo-text{height: 16px!important;	-webkit-border-radius: 0px!important;-moz-border-radius: 0px!important;border-radius: 0px!important;}
+#mainframe #submit_novoTicket .combo-arrow{ height:30px!important;}
+#mainframe #submit_novoTicket .panel{width: 250px!important;}
+#mainframe #submit_novoTicket select{ resize:vertical;}
+
+
+

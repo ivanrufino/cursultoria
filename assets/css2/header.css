@@ -1,0 +1,6 @@
+*{ margin:0; padding:0;}
+
+#header{ width:100%; float:left; overflow:hidden; height:48px; background:url(../../image/bar_top_03.jpg);}
+#header img{ float:right;}
+#info{ float:left; height:40px; margin-top:15px; font:13px Tahoma; color:#ccc; margin-left:10px;}
+#info b{color:#ffffff;}

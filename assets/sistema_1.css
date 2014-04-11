@@ -1,0 +1,61 @@
+/* estilo cadastro*/
+#perfil_lateral{float:left; height:100%;text-align: center;	width: 200px;padding-top: 15px; margin-right: 20px;background-color: rgba(6, 224, 253, 0.22);}
+
+
+
+#form_perfil{float: left; width: auto; margin-left: 10px}
+/*#label_inline{display: block; margin-left: 10px}
+.first:before{content:''; display:block; }
+#label_inline:not(.first):before{content:''; display:block; clear: both;}*/
+
+#label_inline{
+
+color: #5382B2;
+font-weight: bold;
+display: block;
+width: 165px;
+float: left;
+text-align: right;
+line-height: 0px;
+margin-bottom: 13px;
+
+}
+.fl_right{
+	display: inline;
+	margin-left: 15px;
+}
+.obg:after{
+	color: red;
+	font-weight: bolder;
+	content:"*";
+}
+
+label{padding-top: 15px}
+.col2{float:left;margin-right: 75px;}
+.linha:after{
+	content:'';
+    display:block;
+    clear: both;
+}
+.clear{
+	clear: both;
+} ;
+
+/* estilo projetos-disponiveis */
+
+
+}
+.gradiente{
+	background-color: transparent;
+background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #D4D4D4),
+	color-stop(0.51, #F5F5F5) !important;);
+background-image: -o-linear-gradient(bottom, #D4D4D4 0%, #F5F5F5 51%);
+background-image: -moz-linear-gradient(bottom, #D4D4D4 0%, #F5F5F5 51%);
+background-image: -webkit-linear-gradient(bottom, #D4D4D4 0%, #F5F5F5 51%) !im;
+background-image: -ms-linear-gradient(bottom, #D4D4D4 0%, #F5F5F5 51%);
+background-image: linear-gradient(to bottom, #D4D4D4 0%, #F5F5F5 51%);
+}

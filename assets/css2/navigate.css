@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "Franklin Gothic Demi Cond";
+ src: url(../fonts/FRADMCN.TTF);
+}
+@font-face {
+  font-family: "Franklin Gothic Medium Cond";
+ src: url(../fonts/FRAMDCN.TTF);
+}
+@font-face {
+  font-family: "Tw Cen MT Condensed Extra Bold";
+ src: url(../fonts/TCCEB.TTF);
+}
+@font-face {
+  font-family: "Segoe UI";
+ src: url(../fonts/segoeui.otf);
+}
+
+*{ padding:0px; margin:0px;}
+html, body{ background:url(../../image/bg-body.gif) repeat-y; height:100%; min-height:100%;}
+
+#menu{ float:left; width:225px; overflow:auto; background:url(../../image/bg_left_frame.jpg) bottom left no-repeat; height:100%; min-height: 100%; position:relative; font-family: "Segoe UI"; font-size: 12px; color:#ffffff;}
+
+#logo{ float:right; margin-right:15px; margin-top:20px; text-align:right; margin-bottom:30px; color:#555;}
+#logo b{ color:#000;}
+#logo a{ text-decoration:none; color:#9f382c; font-weight:bold;}
+#logo a:hover{ color:#e37611;}
+
+#poweredby{ float:left; bottom:0px; position:absolute; margin-bottom:15px; padding-left:25px; }
+
+.tit_menu{ background:url(../../image/bg_tit_menu.jpg) repeat-x; width:173px; padding:5px 10px; height:25px; float:left;}
+.tit_menu span a{ font:12px "Segoe UI"; font-weight:bold; color:#fff; text-decoration:none;}
+.tit_menu span a:hover{ text-decoration:underline;}
+.tit_menu img{ float:left; margin-right:5px;}
+
+.tit_submenu a{ background:url(../../image/bt_submenu_out.gif); float:left; width:183px; text-decoration:none; padding:5px 0px 5px 10px; line-height:10px; height:14px; font:11px "Segoe UI"; font-weight:bold; color:#444;}
+.tit_submenu a:hover{ background:url(../../image/bt_submenu_over.gif);}
+
+
+#mainMenu{
+	width:205px; float:right; text-align:right;
+}
+
+
+ul#mainMenu{list-style-type:none; text-decoration:none;}
+ul#mainMenu li{ position:relative; float:left; text-decoration:none; border:0;}
+ul#mainMenu li a{ display:block; width:174px; float:left; padding:0 15px; background:url(../../image/bt_menu_off.png) right; height:30px; text-decoration:none; color:#fff; font: 12px "Segoe UI"; font-weight:bold; line-height:29px; margin-bottom:5px;}
+ul#mainMenu li a:hover{background:url(../../image/bt_menu_on.png) right;}
+
+ul#mainMenu li ul{ display:none; position:absolute; float:left; margin-left:0px; top:30px; left:0px; list-style-type:none;}
+ul#mainMenu li:hover ul{ display:block; margin:0 auto; width:140px; background:#003b55; padding:5px 10px; overflow:hidden;}
+ul#mainMenu li ul li a{ width:120px; margin-left:-5px; background:#003b55; border-bottom:1px dotted #00618b; font:11px Arial; color:#fff; height:auto; padding-top:3px; padding-bottom:3px;}
+ul#mainMenu li ul a:hover{ background:#00618b;}

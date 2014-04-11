@@ -1,0 +1,270 @@
+#mainframe #lista_servicos .accordion-group{ padding-bottom:0px; display:block; background:#e8e8e8; margin-bottom:10px; border:2px solid #e8e8e8; overflow:auto;}
+#mainframe #lista_servicos .accordion-group a{font:25px "Franklin Gothic Medium Cond", Helvetica, sans-serif; display:block; margin-top:5px; text-decoration:none; float:left; color:#666;}
+#mainframe #lista_servicos .accordion-heading{background:#e8e8e8; margin-bottom:0px; overflow:auto;}
+#mainframe #lista_servicos .accordion-heading img{ float:left; margin-right:10px;}
+#mainframe #lista_servicos .accordion-heading a{ font:25px "Franklin Gothic Medium Cond", Helvetica, sans-serif; margin-top:5px; text-decoration:none; float:left; color:#666;}
+#mainframe #lista_servicos .accordion-body { background:#fff; padding:0px;}
+
+
+#mainframe #list_items .accordion-group{  background:#f2f2f2; border:1px solid #e8e8e8; padding:3px; margin:5px; overflow:auto; overflow-x:hidden;} /* SE DER PROBLEMA NOS OUTROS ACCORDION, COLOQUE OVERFLOW-X:HIDDEN*/
+#mainframe #list_items .accordion-group a{float:left; padding:2px; margin:0px;}
+#mainframe #list_items .accordion-heading{ background:#f2f2f2; padding:0px; margin:0px; overflow:auto;}
+#mainframe #list_items .accordion-heading img{ float:left; margin-right:5px;}
+#mainframe #list_items .accordion-heading a{float:left; margin-left:5px; font:14px "Open Sans", Arial, Helvetica, sans-serif; color:#333;  font-weight:600;  margin-top:2px;}
+#mainframe #list_items .status{float:right; margin-top:6px;}
+#mainframe #list_items .status img{float:right; margin-right:2px;}
+#mainframe #list_items .status span{float:right; padding-right:5px; font:12px Arial, Helvetica, sans-serif;}
+
+#mainframe #list_items .accordion-body { background:#fff; float:left; width:686px; max-height: 174px;}
+
+/* 1º accordion */
+#mainframe #list_items .accordion-body .servDetalhes_left{width:385px; padding:5px; float:left;}
+#mainframe #list_items .accordion-body .servDetalhes_left #revenda  { display:block; overflow:auto; border-bottom: 1px dotted #CCC; padding-bottom:10px; margin-top:10px;}
+
+#mainframe #list_items .accordion-body .servDetalhes_left #revenda .box {display:block; float:left; width:189px; height:auto; }
+#mainframe #list_items .accordion-body .servDetalhes_left #revenda .box .logotipo_revenda {display:block; overflow:auto; height:100px;  text-align:center;  }
+#mainframe #list_items .accordion-body .servDetalhes_left #revenda .box .logotipo_revenda button {display:block; text-align:center; margin:auto; margin-top:10px; font-size:11px;font-family:Arial;}
+#mainframe #list_items .accordion-body .servDetalhes_left #revenda .box .logotipo_revenda b {font:13px "Open Sans", Arial, Helvetica, sans-serif; color:#666; font-weight:600; margin-bottom:10px; display:block;}
+
+#mainframe #list_items .accordion-body .servDetalhes_left .serv_adicional{ display:block; }
+#mainframe #list_items .accordion-body .servDetalhes_left .serv_adicional p b {font:13px "Open Sans", Arial, Helvetica, sans-serif; color:#666; font-weight:600;}
+#mainframe #list_items .accordion-body .servDetalhes_left .serv_adicional ul { margin-left:15px;}
+#mainframe #list_items .accordion-body .servDetalhes_left .serv_adicional ul li{ list-style:none; font:11px Arial, Helvetica, sans-serif;}
+
+/*Lado direito do primeiro accordion */
+#mainframe #list_items .accordion-body .servDetalhes_right{ width:255px; padding:0 0 0 5px; float:right; background-color:#F2F2F2;}
+
+#mainframe #list_items .accordion-body .servDetalhes_left #monitoracao { display:block;  border-bottom: 1px dotted #CCC; padding-bottom:10px; margin-top:10px; border: 1px solid red;}
+
+#mainframe #list_items .accordion-body .servDetalhes_right #monitoracao{ overflow:hidden;}
+#mainframe #list_items .accordion-body .servDetalhes_right #monitoracao p {font:13px "Open Sans", Arial, Helvetica, sans-serif; color:#666; border-bottom: 1px dotted #CCC; padding-bottom:5px; margin-top:5px;}
+#mainframe #list_items .accordion-body .servDetalhes_right #monitoracao #status_monitoracao .btIcon2{ height:30px;}
+#mainframe #list_items .accordion-body .servDetalhes_right #monitoracao #status_monitoracao button{ font-weight:600;}
+
+#mainframe #list_items .accordion-body .servDetalhes_right #monitoracao #status_monitoracao .btn-group ul { overflow:hidden; padding: 5px 0;}
+#mainframe #list_items .accordion-body .servDetalhes_right #monitoracao #status_monitoracao .btn-group ul li { overflow:hidden; display:block;}
+#mainframe #list_items .accordion-body .servDetalhes_right #monitoracao #status_monitoracao .btn-group ul li a{ width:100%; font:12px Arial, Helvetica, sans-serif; padding: 5px  10px;}
+#mainframe #list_items .accordion-body .servDetalhes_right #monitoracao #status_monitoracao .btn-group ul li a:hover{ color:#fff;}
+
+#mainframe #list_items .accordion-body .servDetalhes_right #monitoracao #status_monitoracao .btn-group ul li a.alertaRed{ color:#c00;}
+#mainframe #list_items .accordion-body .servDetalhes_right #monitoracao #status_monitoracao .btn-group ul li a.alertaRed:hover{ color:#fff;}
+
+#mainframe #list_items .accordion-body .servDetalhes_right #monitoracao .table{ padding-bottom:0px; margin-bottom:0px;}
+#mainframe #list_items .accordion-body .servDetalhes_right #monitoracao .gridDatalhes_servico th{border-right: 1px dotted #e8e8e8; font-size:11px; font-weight:bold;}
+#mainframe #list_items .accordion-body .servDetalhes_right #monitoracao .gridDatalhes_servico td{font-size:11px; }
+
+/* Fim do 1º accordion */
+
+#mainframe #servico_content{display:block; width:100%; border:2px solid #e8e8e8; overflow:auto;}
+#mainframe #servico_content .tit_box{ font:16px "Franklin Gothic Medium Cond", sans-serif; letter-spacing:0px; text-transform:uppercase; line-height:40px; color:#666; padding-left:15px; display:block; height:40px; background:#f6f6f6; border-bottom:1px dotted #e8e8e8;}
+
+#mainframe #servico_content .d_Servicos{ width:162px; height:120px; background:#f0f0f0; float:left; margin:5px;}
+#mainframe #servico_content .thumbnail{ text-decoration:none; background:url(<?=site_url()?>/assets/images/bg_btoes_contato.gif) repeat-x; overflow:auto; font-family:"Open Sans", Helvetica, sans-serif; color:#666; padding:5px; width:152px;}
+#mainframe #servico_content .thumbnail img{ float:left; margin:5px 10px 5px 0;}
+#mainframe #servico_content .thumbnail h3{font: 13px "Open Sans", Helvetica, sans-serif; font-weight:600; display:block;}
+#mainframe #servico_content .thumbnail p{ font:12px Arial, Helvetica, sans-serif; margin-top:5px; display:block;}
+#mainframe #servico_content .thumbnail .buttonServ{ float:right; text-align:right; height:26px; line-height:20px; margin-top:20px; font-size:11px; font-weight:600;}
+#mainframe #servico_content .thumbnail:hover{  outline:none;}
+#mainframe #servico_content a{ text-decoration:none;}
+
+#mainframe #servico_content thead{ background:<?=$cor_default?>; font: 14px "Open Sans", Helvetica, sans-serif; color:#fff;}
+#mainframe #servico_content tbody{ font:13px Arial, Helvetica, sans-serif;}
+#mainframe #servico_content tbody .label{ font:11px "Open Sans", Helvetica, sans-serif; float:right; width:auto; font-weight:600; margin:0px; color:#fff; padding:3px 8px; text-transform:uppercase;}
+
+#mainframe p { font-family:Open Sans, Arial, Helvetica, sans-serif; font-size:13px; margin-bottom:10px;}
+
+#mainframe	#detalhes_serv { float:left; overflow:auto; border:1px solid #c00; }
+#mainframe	#detalhes_serv .label_serv{ float:left; color:#666; font: 13px "Open Sans", Arial, Helvetica, sans-serif; }
+#mainframe	#detalhes_serv .label_serv b{ font:14px "Open Sans", Helvetica, sans-serif;  font-weight:bold; color:#333;}
+
+#mainframe	#aviso_serv { float:right; height:120px; background:#e8e8e8; width:320px; padding: 10px 15px 0px 15px;}
+#mainframe	#aviso_serv p { float:left; font: 11px Arial, Helvetica, sans-serif; color:#666; }
+#mainframe	#aviso_serv p i {float:left; margin: 0;}
+#mainframe	#aviso_serv p b { float:left; margin: 10px 10px 0;  font: 14px "Open Sans", Arial, Helvetica, sans-serif; font-weight:600; }
+
+
+/* Janela Modal - MUDAR SENHA */
+
+#modalMudarSenha .modal-header{font:18px "Open Sans", Helvetica, sans-serif; }
+#modalMudarSenha { width:410px; background:#eee;}
+#modalMudarSenha .modal-body label{display:block; overflow:auto; font:13px "Open Sans", Helvetica, sans-serif;}
+#modalMudarSenha .modal-body input{ padding:8px 5px; width:200px; font:25px "Open Sans", Helvetica, sans-serif; letter-spacing:-1px; border:1px solid #ddd;}
+#modalMudarSenha .btn{ font:12px Arial, Helvetica, sans-serif; font-weight:bold; padding:7px 10px;}
+
+#modalMudarSenha .password_test {
+ float:left;
+}
+#modalMudarSenha .pstrength {
+ display:none;
+}
+
+
+
+/* Janela Modal - MUDAR PLANO */
+#modalTrocarPlano { width:610px;}
+#modalTrocarPlano  .modal-header{font:20px "Open Sans", Helvetica, sans-serif;}
+#modalTrocarPlano ul li { list-style:none; display:block; margin-top:10px; font:13px "Open Sans", Helvetica, sans-serif;}
+#modalTrocarPlano .modal-body p {font:13px "Open Sans", Helvetica, sans-serif; color:#666; }
+#modalTrocarPlano .btn{ font:12px Arial, Helvetica, sans-serif; font-weight:bold; padding:7px 10px;}
+
+#modalTrocarPlano .novoPlano{ display:block; height:70px; background:#e8e8e8; margin-bottom:5px; font:13px "Open Sans", Helvetica, sans-serif;}
+#modalTrocarPlano .novoPlano .nome_plano{ float:left; width:225px; height:55px; padding-top:5px;  margin-top:8px; margin-left:10px;}
+#modalTrocarPlano .novoPlano .label{ float:left; width:5px; height:60px; background:none; margin-top:8px; margin-left:10px;}
+#modalTrocarPlano .novoPlano .label [type="radio"]{ margin-top:20px;}
+#modalTrocarPlano .novoPlano .nome_plano b{ font-size:18px; font-weight:600;}
+#modalTrocarPlano .novoPlano .nome_plano b.preco{ font-size:14px; display:block; clear:both; font-weight:600; color:#363;}
+#modalTrocarPlano .novoPlano .nome_plano p{ display:block; line-height:18px; height:20px;}
+#modalTrocarPlano .novoPlano .nome_plano b.feature{ font-size:16px; display:block; float:left; clear:both;}
+
+#modalTrocarPlano .novoPlano .desc_plano{ float:left; width:100px; height:55px; padding-top:5px; margin-top:8px; margin-left:12px;}
+#modalTrocarPlano .novoPlano .desc_plano b{ float:left; clear:both; margin:0px; font-size:20px; display:block; color:#363;}
+#modalTrocarPlano .novoPlano .desc_plano p{ float:left; margin:0px; font-size:11px; color:#666; text-transform:uppercase;}
+
+#modalTrocarPlano .h4{ font:16px "Open Sans", Helvetica, sans-serif; font-weight:normal; margin-top:10px;}
+
+/* Janela Modal - INFORMAÇÕES TÉCNICAS */
+#modalInfoTecnica .modal-body { font-family: "Open Sans", Helvetica, sans-serif; }
+#modalInfoTecnica .modal-header{font:18px "Open Sans", Helvetica, sans-serif; }
+
+#modalInfoTecnica .modal-body p {font:13px "Open Sans", Helvetica, sans-serif; margin-top:10px; }
+
+#modalInfoTecnica .modal-body table{ font-size:13px; margin: 20px 0 10px 0;}
+#modalInfoTecnica .modal-body table tbody tr .fundoCinza{background-color: #F9F9F9; }
+
+#modalInfoTecnica .modal-body p b{ font-weight:600; font-size:14px; overflow:auto; margin-bottom:10px;}
+#modalInfoTecnica .modal-footer {padding: 14px 15px 15px;margin-bottom: 0;text-align: right;background-color: whiteSmoke;border-top: 1px solid #DDD;-webkit-border-radius: 0 0 6px 6px;-moz-border-radius: 0 0 6px 6px;border-radius: 0 0 6px 6px;-webkit-box-shadow: inset 0 1px 0 white;-moz-box-shadow: inset 0 1px 0 #ffffff; box-shadow: inset 0 1px 0 white;}
+#modalInfoTecnica .modal-body span { margin-bottom:10px; font-size:13px}
+
+
+
+
+
+/*  ADVANCED STYLES */
+.top_testresult{
+	font-weight: bold;
+	font-size:13px;
+	font-family: arail,helvetica,san-serif;
+	color:#666;
+	padding:0;
+	margin:0 0 2px 0;
+}
+.top_testresult span{
+	padding:6px ;
+	margin:0;
+}
+.top_shortPass{
+	background:#edabab;
+	border:1px solid #bc0000;
+	font: 14px "Open Sans", Helvetica, sans-serif;
+	font-weight:600;
+width:140px;
+height:25px;
+float:right;
+padding:5px;
+
+}
+.top_shortPass span{
+	
+}
+.top_badPass{
+	background:#edabab;
+	border:1px solid #bc0000;
+	font: 14px "Open Sans", Helvetica, sans-serif;
+	font-weight:600;
+width:140px;
+height:25px;
+float:right;
+padding:5px;
+
+}
+.top_badPass span{
+	
+}
+.top_goodPass{
+	background:#ede3ab;
+	border:1px solid #bc9f00;
+	font: 14px "Open Sans", Helvetica, sans-serif;
+	font-weight:600;
+width:140px;
+height:25px;
+float:right;
+padding:5px;
+
+}
+.top_goodPass span{
+
+}
+.top_strongPass{
+	background:#d3edab;
+	border:1px solid #73bc00;
+	font: 14px "Open Sans", Helvetica, sans-serif;
+	font-weight:600;
+width:140px;
+height:25px;
+float:right;
+padding:5px;
+
+}
+.top_strongPass span{
+
+}
+
+
+/* 	RESULT STYLE  */
+.testresult{
+	font-weight: bold;
+	font-size:13px;
+	font-family: arial,helvetica,san-serif;
+	color:#666;
+	padding:0px 0px 12px 10px;
+	margin-left:10px;
+	display: block;
+	height:28px;
+	float:left;
+}
+.testresult span{
+	padding:10px 20px 12px 10px;
+	margin: 0px 0px 0px 20px;
+	display:block;
+	float:right;
+	white-space: nowrap;
+}
+.shortPass{
+	background:url(images/red.png) no-repeat 0 0;
+}
+.shortPass span{
+	background:url(images/red.png) no-repeat top right;
+}
+.badPass{
+	background:url(images/red.png) no-repeat 0 0;
+}
+.badPass span{
+	background:url(images/red.png) no-repeat top right;
+}
+.goodPass{
+	background:url(images/yellow.png) no-repeat 0 0;
+}
+.goodPass span{
+	background:url(images/yellow.png) no-repeat top right;
+}
+.strongPass{
+	background:url(images/green.png) no-repeat 0 0;
+}
+.strongPass span{
+	background:url(images/green.png) no-repeat top right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

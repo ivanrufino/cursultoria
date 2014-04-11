@@ -1,0 +1,45 @@
+/*** Estilos Principais ****/
+
+body{ 
+	font-family: "Myriad Pro", "Trebuchet MS",Verdana, Arial, Helvetica, sans-serif; 
+	background:#FFF  url('../img/login/logo.jpg') right bottom no-repeat; 
+}
+
+h1 {
+	font-size:18px;
+	color:#036;	
+}
+
+h2 {
+	font-size:26px;
+	color:#036;	
+}
+
+a {
+	color:#036;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#03C;
+	text-decoration:underline;
+}
+
+.mais {
+	background: url('../img/icons/mais.png') no-repeat left;	
+	padding: 0px 0px 0px 20px;
+	font-size:14px;
+}
+
+.tip {
+	background: #E9F0FC url('../img/icons/tip.png') no-repeat left;
+	padding: 2px 2px 2px 20px;
+	border:dotted thin #036;
+	
+}
+
+.home {
+	background: url('../img/icons/16x16/home.png') no-repeat left;	
+	padding: 0px 0px 0px 20px;
+	font-size:14px;
+}

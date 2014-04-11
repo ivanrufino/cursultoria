@@ -1,0 +1,8 @@
+.txt_logged{ color:#FFFFFF; font:11px Tahoma, Arial, Helvetica, sans-serif;}
+.admin_tit_content_txt{ float:left; font:16px Arial, Helvetica, sans-serif; color:#FF6600; font-weight:bold;}
+.admin_alert_error_txt{ font:12px Tahoma; color:#6e0000;}
+.admin_alert_confirm_txt{ font:12px Tahoma; color:#1f5d00;}
+.admin_alert_warning_txt{ font:12px Tahoma; color:#00436e;}
+
+.txt_busca_coluns{ font:12px Tahoma; color:#ffffff; font-weight:bold;}
+.txt_list_perpages{ font:11px Tahoma; padding:0px; color:#333;}

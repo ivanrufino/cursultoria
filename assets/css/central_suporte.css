@@ -1,0 +1,25 @@
+#mainframe #boxes_suporte{ display:block; overflow:auto;}
+#mainframe .box_tipo_suporte { float:left; width:210px; padding: 10px; display:block;}
+#mainframe .tit_suporte b { font-family:'Open sans', Arial; font-size:18px; font-weight:600; display:block;}
+
+#mainframe .box_tipo_suporte .tit_suporte p { margin-top:10px ; } 
+#mainframe .box_tipo_suporte .tit_suporte button{ }
+
+#mainframe .box_tipo_suporte2 { float:left; width:180px; padding: 10px; display:block; border-right:1px dotted #ccc;}
+#mainframe .box_tipo_suporte2 .tit_suporte p { margin:10px 0 0 0; } 
+#mainframe .box_tipo_suporte2 .tit_suporte a{ margin-top: 10px; float:left; text-decoration:none;  }
+
+#mainframe p b { display:block; font-size:18px; margin-bottom:5px;}
+#mainframe #duvidas_suporte{ padding:10px; background:#f0f0f0; display:block; overflow:auto;}
+#mainframe #duvidas_suporte input { float:left; width:500px; font-size:16px; padding:10px; margin-right:15px;}
+
+#mainframe #duvidas_suporte  #duvidas_financeiro_produtos{ overflow:hidden; display:block; margin-top:20px; }
+
+#mainframe #duvidas_suporte  #duvidas_financeiro_produtos .boxs_financeiro_produtos { float:left; width:324px; height:auto;}
+#mainframe #duvidas_suporte  #duvidas_financeiro_produtos .boxs_financeiro_produtos b { display:block; font-weight:bold; font-family: 'Open sans', Arial; font-size:18px;}
+#mainframe #duvidas_suporte  #duvidas_financeiro_produtos .boxs_financeiro_produtos ul { float:left; margin-left:20px; height:130px;}
+#mainframe #duvidas_suporte  #duvidas_financeiro_produtos .boxs_financeiro_produtos ul li { font-family: Arial, Helvetica, sans-serif; font-size: 12px; list-style-image:url(<?=site_url()?>/assets/img/icons/16x16/arrow-right.png); margin-bottom: 10px; margin:10px 0; padding-bottom:5px;}
+
+#mainframe #duvidas_suporte #todas_perguntas { width:315px; padding:5px; background: #d6d4d4; float:left; text-align:right; font-family: 'Open sans', Arial; font-size:12px;}
+#mainframe #duvidas_suporte #todas_perguntas .btn-link {color:#c00; font-weight:600;}
+

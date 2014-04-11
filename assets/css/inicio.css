@@ -1,0 +1,54 @@
+#fatura_links{ margin:15px; border:1px solid red; max-width:98%; width:98%; float:left;}
+ /* ############################################################## */
+ 
+
+.stats-container {
+
+list-style: none;
+text-align: center;
+}
+
+.stats-container li {
+	width:20%;
+	height:60px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 5px;
+	position: relative;
+	margin-bottom: 10px;
+	line-height: 18px;
+}
+
+.stats-container > li > .stat {
+width:100%;
+height:100px;
+background-color: white;
+border: 1px solid #CCC;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+position: relative;
+display: inline-block;
+padding: 15px 20px;
+color: #444;
+text-decoration: none;
+line-height: 1;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+-ms-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+#status_servidor{
+background-color: white;
+border: 1px solid #CCC;
+
+}
+
+#status_servidor .easyui-tabs #form_ativ_status_serv { margin:0px; padding:0px;}
+#status_servidor .easyui-tabs #form_ativ_status_serv .btn-group .btn{ margin:0px; border:none;}
+#status_servidor .easyui-tabs #form_ativ_status_serv #tabs-1{overflow:hidden; display:block; border:none;background-color: white; }
+#status_servidor .easyui-tabs #form_ativ_status_serv #tabs-2{overflow:hidden; display:block; border:none; background-color: white;}
+
+#tabela_inicio1 {float:left; width:49%;}
+#tabela_inicio2 {float:right; width:49%;}

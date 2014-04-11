@@ -1,0 +1,39 @@
+/*iso padão*/
+@charset "iso-8859-1";
+/*Fonte padão do sistema*/
+*{ padding:0; margin:0; font-family:Verdana, Geneva, sans-serif; font-size:11px; color:#000;}
+/*Cor do fundo*/
+body { background:#F3F3F3; padding:0; margin:0;}
+/*Display principal*/
+.display {position:relative; margin:0 auto; width:1015px; height:563px; top:34px; left:0px; right:0; bottom:12px;  
+		  background:#E8E8E8; border:1px solid #494949;}
+/*Display corpo*/
+.display .display_corpo {position:relative; margin:0 auto; width:982px; height:510px; left:0px; right:0px; top:25px; bottom:0px;
+						 background:#FFF; padding:10px;overflow:auto; border:1px solid #909090;}
+						 
+.display #pesq_resultado { position:absolute; top:65px; left:10px; right:10px; bottom:15px; overflow:auto;}
+.display #pesq_resultado h1  { font-size:14px; color:#09C; font-family:Verdana, Geneva, sans-serif; margin:4px 0}
+.display #pesq_resultado h2 {position:relative; background:transparent; left:0; padding:0; margin:2px 0; color:#069; font-size:12px; font-family:Georgia, "Times New Roman", Times, serif;}
+
+/*paginação*/
+.display #pesq_resultado .barra_paginacao { position:absolute; left:0; right:0; bottom:0; text-align:center; border:none}
+.display #pesq_resultado .barra_paginacao:hover { background:none}
+.display #pesq_resultado .barra_paginacao img{ vertical-align:middle; margin:0 5px; cursor:pointer}
+.display #pesq_resultado .barra_paginacao div {display:inline; background:transparent !important; border:none; height:18px}	
+
+/*Formatação das tabelas de resultado*/
+.display #pesq_resultado table {width:100%}
+.display #pesq_resultado table td { padding:1px 3px;border-bottom:1px solid #EEE;}
+.display #pesq_resultado table tr:hover { background:#86AAE6;}
+.display #pesq_resultado .rel_table_titulo td { background-color:#999; color:#FFF;  height:20px;}
+
+/*Titulo da pagina*/
+.display h1 { font-size:18px; color:#960; font-family:Verdana, Geneva, sans-serif; margin:6px 20px;}
+.display h2{ position:absolute; top:2px; left:5px; font-size:14px;  color:#494949; 
+			 background:url(../../CORE/img/site/v.gif) left center no-repeat; padding-left:22px;}					 
+
+/*Botão padrão*/						 
+.button{height: 20px;color: #333333;font-size: 12px;padding-left: 8px;padding-right: 8px;background: url('../../CORE/img/site/bg.gif') repeat-x #f0f0f0;border: 1px solid #a4a4a4;cursor:pointer;}	
+
+.input{height:18px;border: 1px solid #a4a4a4;}					 
+			 						 		 

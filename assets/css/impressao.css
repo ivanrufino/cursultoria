@@ -1,0 +1,24 @@
+*{ margin:0px; padding:0px;}
+body{ margin:0px; padding:0px;}
+
+#wrap{ margin:0 auto; width:600px; overflow:auto; border-top:20px solid #4c799a; border-left:1px solid #4c799a; border-right:1px solid #4c799a; border-bottom:3px solid #4c799a; background:#fff;}
+
+#header{ display:block; overflow:hidden; }
+#header img{ float:left; margin:10px;}
+
+#content{ font:13px Tahoma, Helvetica, sans-serif; color:#454545;}
+#content p{font:13px Tahoma, Helvetica, sans-serif; color:#454545; margin-bottom:15px;}
+#content p b{font:13px Tahoma, Helvetica, sans-serif; font-weight:bold; color:#333;}
+
+table{ width:100%; font:12px Tahoma, Helvetica, sans-serif; padding:0px; color:#333; border:1px solid #e8e8e8;}
+table th{ background:#e6e6e6; padding:5px; text-align:left; font-weight:bold;}
+table td{ padding:5px; background:#f7f7f7;}
+
+
+/* Impressão */
+#wrap_impresso{ margin:0 auto; width:820px; overflow:auto; background:#fff; height:auto !important; height:100%; min-height:100%;}
+#title_imp{float:right; margin-top:10px; margin-right:10px;}
+#title_imp h1{font:28px Tahoma, Helvetica, sans-serif; color:#069;}
+#title_imp p{text-align:right; font:12px Tahoma, Helvetica, sans-serif; color:#333;}
+
+#footer{ position:absolute; bottom:0px; width:820px; overflow:auto; border-top:1px solid #ccc; padding:10px; font:11px Tahoma, Helvetica, sans-serif; color:#777;}

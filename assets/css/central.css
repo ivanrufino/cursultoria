@@ -1,0 +1,49 @@
+#mainframe #central_tit{height:40px; display:block; padding-top:10px; font:28px "Sans Pro", sans-serif; letter-spacing:-1px; color:#aaa; }
+
+#mainframe #central_subtit{height:30px; display:block; padding-top:10px; font:20px "Sans Pro", sans-serif; letter-spacing:0px; color:#aaa; }
+
+#mainframe #central_destaque{ display:block; overflow:auto; height:280px; width:100%; /* background: url(<?=site_url()?>/assets/Untitled-2.jpg) no-repeat;*/}
+
+#mainframe #central_destaque .c_left{ float:left; width:370px; height:260px; border:1px solid #e0e0e0; overflow:hidden;}
+#mainframe #central_destaque .c_left p{ padding:15px; margin:15px; font:13px Arial, Helvetica, sans-serif; color:#666;}
+
+#mainframe #central_destaque .c_right{ float:right; width:300px; height:260px; padding:1px; border:1px solid #<?=$cor_default?>; 
+background:url(<?=site_url()?>/assets/images/_transparente_90.png), #<?=$cor_default?>; overflow:hidden;}
+
+#mainframe #central_destaque .c_right a{ text-decoration:none; text-transform:none;}
+
+#mainframe #central_destaque .c_right p{ font:13px Arial, Helvetica, sans-serif; color:#666; padding:10px; margin-left:5px; display:block;}
+
+#mainframe #central_destaque .c_right h2{ font:38px "Franklin Gothic Medium Cond"; font-weight:500; display:block; text-align:center; padding-bottom:15px; border-bottom:1px dotted #c8c8c8;}
+#mainframe #central_destaque .c_right h3{ font:20px "Open Sans", "Franklin Gothic Medium Cond";  display:block; text-align:left; padding-left:15px; padding-bottom:10px; display:block;}
+
+#mainframe #central_destaque .c_right .btPag{ float:right; margin-top:15px; margin-right:15px; font-weight:600; font-family:"Open Sans";}
+#mainframe #central_destaque .c_right .extrato{ height:50px; clear:both; overflow:auto; font-family:"Open Sans", "Franklin Gothic Medium Cond"; text-decoration:none; display:block; padding-top:5px; text-align:center;}
+#mainframe #central_destaque .c_right .extrato a{  margin:0px; padding:0px; text-decoration:none;}
+
+#mainframe #central_destaque .tit_box{ font:16px "Franklin Gothic Medium Cond", sans-serif; letter-spacing:0px; text-transform:uppercase; line-height:40px; color:#666; padding-left:15px; display:block; height:40px; background:#f6f6f6; border-bottom:1px dotted #e8e8e8;}
+
+#mainframe #central_destaque .tit_box2{ font:16px "Franklin Gothic Medium Cond", sans-serif; letter-spacing:0px; text-transform:uppercase; line-height:40px; color:#666; padding-left:15px; display:block; height:40px;}
+
+#mainframe #table_destaque{ display:block; overflow:hidden; margin-top:10px;}
+#mainframe #table_destaque th{ font:14px "Open Sans", Helvetica, sans-serif; color:#333; text-align:right; width:110px;}
+#mainframe #table_destaque td{ font:14px "Open Sans", Helvetica, sans-serif;  font-weight:bold; height:30px; color:#666; padding-left:5px; text-align:left; width:290px;}
+
+#mainframe #other_content{display:block; width:100%; border:1px solid #e8e8e8;}
+#mainframe #other_content .tit_box{ font:16px "Franklin Gothic Medium Cond", sans-serif; letter-spacing:0px; text-transform:uppercase; line-height:40px; color:#666; padding-left:15px; display:block; height:40px; background:#f6f6f6; border-bottom:1px dotted #e8e8e8;}
+
+#mainframe #other_content .d_Servicos{ width:162px; height:120px; background:#f0f0f0; float:left; margin:5px;}
+#mainframe #other_content .thumbnail{ text-decoration:none; background:url(<?=site_url()?>/assets/images/bg_btoes_contato.gif) repeat-x; overflow:auto; font-family:"Open Sans", Helvetica, sans-serif; color:#666; padding:5px; width:152px;}
+#mainframe #other_content .thumbnail img{ float:left; margin:5px 10px 5px 0;}
+#mainframe #other_content .thumbnail h3{font: 13px "Open Sans", Helvetica, sans-serif; font-weight:600; display:block;}
+#mainframe #other_content .thumbnail p{ font:12px Arial, Helvetica, sans-serif; margin-top:5px; display:block;}
+#mainframe #other_content .thumbnail .buttonServ{ float:right; text-align:right; height:26px; line-height:20px; margin-top:20px; font-size:11px; font-weight:600;}
+#mainframe #other_content .thumbnail:hover{  outline:none;}
+#mainframe #other_content a{ text-decoration:none;}
+
+#mainframe #other_content thead{ background:#<?=$cor_default?>; font: 14px "Open Sans", Helvetica, sans-serif; color:#fff;}
+#mainframe #other_content tbody{ font:13px Arial, Helvetica, sans-serif;}
+#mainframe #other_content tbody .label{ font:11px "Open Sans", Helvetica, sans-serif; float:right; width:auto; font-weight:600; margin:0px; color:#fff; padding:3px 8px; text-transform:uppercase;}
+.btIcon{ height:33px;}
+
+a{ cursor:pointer;}

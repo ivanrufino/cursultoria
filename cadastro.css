@@ -1,0 +1,40 @@
+body {background:url(assets/img/login/bg_login2.png) right top no-repeat, url(assets/images/background-login.png) left top repeat-x #E3E3E3;}
+#painelCadastro #formCadastro p input{font-family:'Open Sans', Arial; font-size:13px; }
+.estadoCidade { float:left; margin-right:30px}
+.ajuda_cadastro{ float:right; margin-right:60px;width: 240px; margin: 0px;}
+button { margin:0px; }
+
+
+#painelCadastro #formCadastro h1 img{ float:right;}
+
+
+b{font-family:'Open Sans', Arial; font-size:14px; font-weight:600; display:block; overflow:auto;}
+#painelCadastro {box-shadow: 0 0 5px #888; padding:15px; background: url(assets/images/background-registration.png) left -30px repeat-x  #dadada; height:auto; width: 640px; position: absolute;top: 30%;left: 54%;margin: -205px -357px;}
+#painelCadastro form{ margin:0;}
+#painelCadastro #formCadastro { padding: 0 0 20px 0; border-bottom: 1px solid #C2C2C2;}
+#painelCadastro #formCadastro h1 { font: bold 34px/34px 'Open Sans', Arial;}
+#painelCadastro #formCadastro h2 { font: 600 24px'Open Sans', Arial;}
+#painelCadastro #formCadastro { font-family:'Open Sans', Arial; font-size:13px; font-weight:600;}
+#painelCadastro #formCadastro p b { font-family:'Open Sans', Arial; font-size:14px; font-weight:600; display:block; overflow:auto;}
+
+#painelCadastro #formCadastro p { display:block; overflow:auto;}
+#painelCadastro #formCadastro p input{ font-size:15px; width:350px; height:30px; float:left;}
+#painelCadastro #formCadastro p select.span2{font-size:15px;  height:40px; }
+#painelCadastro #formCadastro p .span1 {float:left; margin-right:5px; display:block; margin-top:5px; font-family:'Open Sans', Arial; font-size:15px;  height:30px;}
+#painelCadastro #formCadastro p .span1Ano{  width:105px; float:left; margin-right:5px; display:block; margin-top:5px; font-family:'Open Sans', Arial; font-size:15px;  height:30px; }
+#painelCadastro #formCadastro p .span2 { float:left; margin-right:5px; display:block; margin-top:5px; font-family:'Open Sans', Arial; font-size:15px;  height:30px;}
+#painelCadastro #formCadastro .input-append .span3 { width:210px; font-size:15px; height:30px;}
+#painelCadastro #formCadastro .input-append .add-on{ font-size:15px; height:24px; padding-top:10px;}
+#painelCadastro #formCadastro p .ajuda_cadastro{ font-size:12px;}
+
+#painelCadastro .btn-group{ margin-bottom:10px;}
+
+#recaptcha{ display:block; overflow:auto;border-top: 1px solid white; font: bold 16px 'Open Sans', Arial; border-bottom: 1px solid #C2C2C2;}
+#recaptcha b{ font: 600 14px 'Open Sans', Arial; margin-bottom:5px;}
+#recaptcha #cad_termos {margin-top:10px; padding-bottom:20px; display:block; overflow:auto;}
+#recaptcha li {font: normal 13px 'Open Sans', Arial;d isplay:block; overflow:auto; margin-top:10px; list-style:none; }
+#recaptcha li input { margin-right:5px;}
+#recaptcha #cad_termos button{ font-size:14px; margin-top:20px; float:left; margin-right:20px;}
+
+#footer{ display:block; overflow:auto; border-top: 1px solid white; padding-top:0px; font: bold 16px 'Open Sans', Arial;}
+#footer b{ font-size:10px;}

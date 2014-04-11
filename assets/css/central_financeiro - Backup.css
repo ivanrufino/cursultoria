@@ -1,0 +1,53 @@
+#mainframe	#detalhes_faturas { float:right; width:660px; margin:10px 0px 10px 0; background:#f4f4f4; padding: 10px 15px 5px 15px;}
+#mainframe	#detalhes_faturas i { float:left;}
+#mainframe	#detalhes_faturas p b { float:left; margin-top:5px; margin-left:15px; font-size:14px; font: 'Open Sans', Arial, Helvetica, sans-serif 12px ;}
+#mainframe	table#table_detalhes_faturas{ float:left; width:450px; }
+#mainframe #detalhes_servicos { width: 230px; padding: 0 0 15px; background-color: #F4F4F4;overflow: hidden; margin-top:10px; }
+#mainframe #detalhes_servicos h2 {font: 38px "Franklin Gothic Medium Cond";font-weight: 500;display: block;text-align: center;padding-bottom: 15px;border-bottom: 1px dotted #C8C8C8; margin-bottom:5px;}
+#mainframe #detalhes_servicos h3 {font: 20px "Open Sans", "Franklin Gothic Medium Cond";display: block;text-align: left;padding-left: 15px;padding-bottom: 10px;display: block;}
+
+#mainframe thead{ background:<?=$cor_default?>; font: 14px "Open Sans", Helvetica, sans-serif; color:#fff;}
+#mainframe tbody{ font:13px Arial, Helvetica, sans-serif;}
+#mainframe tbody .label{ font:11px "Open Sans", Helvetica, sans-serif; float:right; width:auto; font-weight:600; margin:0px; color:#fff; padding:3px 8px; text-transform:uppercase;}
+#mainframe #detalhes_servicos p { font-family: Arial, Helvetica, sans-serif;font-size: 12px;margin-bottom: 10px; padding: 0 10px;}
+#mainframe #detalhes_servicos li{font-family: Arial, Helvetica, sans-serif;font-size: 12px; list-style-image:url(<?=site_url()?>/assets/img/icons/16x16/arrow-right.png); margin-bottom: 10px; padding: 0 10px; margin:5px 0; padding-bottom:5px; border-bottom:1px dotted #ccc;}
+#mainframe #detalhes_servicos li i{ font-size:11px;}
+
+#mainframe #todos_detalhes_fatura { float:left; width:450px;margin-right:10px; }
+#mainframe #data_fatura { float:left; width:450px; margin:0px; background:url(<?=site_url()?>/assets/images/_transparente_95.png), <?=$cor_default?>; padding: 8px 0;}
+
+#mainframe #dados_cobranca { float:left; width:48%; background:#f7f7f7;}
+#mainframe #dados_cobranca img{ float:left;background-color: #f7f7f7; padding:10px}
+#mainframe #todos_detalhes_fatura #dados_cobranca button{ margin-top:5px; float:left; font-size:11px; font-weight:600;}
+#mainframe #todos_detalhes_fatura #dados_cobranca a { margin-top:5px; float:left; font: 12px "Open Sans", "Franklin Gothic Medium Cond"; font-weight:600; text-decoration:none; text-transform:none;}
+#mainframe #todos_detalhes_fatura #dados_cobranca font {color:#666; font-family:Open sans, Arial; font-size:13px; float:left; padding-top:10px;}
+
+ /* Janela Modal - ALTERAR FORMA DE PAGAMENTO */
+#modalFormaPagamento { display:block; width:400px;}
+#modalFormaPagamento .modal-header h3 b {font: 18px "Open Sans", Helvetica, sans-serif; font-weight:bold;}
+#modalFormaPagamento .modal-body {background-color: whiteSmoke;}
+#modalFormaPagamento .modal-body #bandeiras { display:block; overflow:auto;}
+#modalFormaPagamento .modal-body ul { margin:auto; width:300px;}
+#modalFormaPagamento .modal-body ul li{ list-style:none; float:left; margin-right:10px; text-align:center;}
+#modalFormaPagamento .modal-body ul li img{ display:block;}
+#modalFormaPagamento .modal-body #detalhes_Cartao{ display:block; overflow:auto;}
+#modalFormaPagamento #dados_cartao { float:left; width:auto; font: 13px "Open Sans", "Franklin Gothic Medium Cond"; margin-right:10px; }
+#modalFormaPagamento #dados_cartao input{ display:block;}
+#modalFormaPagamento #dados_cartao .span1 {width:110px;}
+#modalFormaPagamento #dados_cartao .span3 {width:220px;}
+#modalFormaPagamento .modal-body .faturaUnica {font: 13px "Open Sans", "Franklin Gothic Medium Cond"; }
+
+
+ /* Janela Modal - ALTERAR CICLO DE PAGAMENTO */
+
+#modalCicloPagamento { display:block; width:400px;}
+#modalCicloPagamento .modal-header h3 b {font: 18px "Open Sans", Helvetica, sans-serif; font-weight:bold;}
+#modalCicloPagamento .modal-body {background-color: whiteSmoke;}
+#modalCicloPagamento .modal-body #tipoPagamento { display:block; overflow:auto;}
+
+#modalCicloPagamento .modal-body ul { display:block;}
+#modalCicloPagamento .modal-body ul li{ list-style:none; display:block; }
+#modalCicloPagamento .modal-body ul li label { display:block; overflow:auto; }
+#modalCicloPagamento .modal-body ul li label .input{ float:left; margin: 0 5px 0 0;}
+#modalCicloPagamento .modal-body ul li label .tipoPagamento{ display:block; overflow:auto; margin-top:5px; font: 13px "Open Sans", "Franklin Gothic Medium Cond";}
+

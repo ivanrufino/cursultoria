@@ -1,0 +1,56 @@
+/*#mainframe p { font-family:Open Sans, Arial, Helvetica, sans-serif; font-size:13px; margin-bottom:10px;}*/
+#mainConfig{ font-family:Tahoma, Arial, Helvetica, sans-serif;}
+#th_servers{ display:block; margin-top:10px; overflow:auto; float:left;}
+#th_servers .li_server{ float:left; margin:8px; height:80px; width:320px; overflow:hidden; border:1px}
+#th_servers .li_server .tit_srv{ display:block; padding:5px 10px; font:14px "Open Sans", Arial, Helvetica, sans-serif; margin-right:8px; color:#333; margin-top:5px; overflow:auto; font-weight:600; border-bottom:1px dotted #666;}
+#th_servers .li_server .det_srv{ display:block; color:#666; margin-right:5px; overflow:auto; background:#eee; padding:5px 10px; margin-top:5px;}
+
+#th_servers .li_server:hover{ background:#eee;}
+
+.breadcumb{ background:#eee; padding:8px; font:13px Arial, Helvetica, sans-serif; color:#666;}
+
+#lista_servicos .accordion-group{ padding-bottom:0px; display:block; background:#e8e8e8; margin-bottom:10px; border:2px solid #e8e8e8;}
+#lista_servicos .accordion-group a{font:18px "Franklin Gothic Medium Cond", Helvetica, sans-serif; display:block; margin-top:5px; text-decoration:none; float:left; color:#666;}
+#lista_servicos .accordion-heading{background:#e8e8e8; margin-bottom:0px; overflow:auto;}
+#lista_servicos .accordion-heading img{ float:left; margin-right:10px;}
+#lista_servicos .accordion-heading a{ font:14px "Open Sans", Helvetica, sans-serif; font-weight:600; margin-top:5px; text-decoration:none; float:left; color:#666;}
+#lista_servicos .accordion-body { background:#fff; padding:0px;}
+#lista_servicos .accordion-body table td a{ font:12px Tahoma, Arial, Helvetica, sans-serif; color:#333;}
+#lista_servicos .accordion-body table td a:hover{ text-decoration:underline;}
+
+/******** MODAL - ALTERAR DADOS CADASTRAIS **********************************/
+#modalAlterarCadastro{ display:block; overflow:auto; padding:10px;}
+
+/******** MODAL - ALTERAR SENHA **********************************/
+#alterarSenha { padding:10px;}
+#alterarSenha .input{ display:block; overflow:auto; width:360px; margin:0px;}
+
+
+/******** MODAL - DETALHE DO DOMÍNIO **********************************/
+#detalheDominio{ display:block; overflow:auto; padding:10px;}
+#detalheDominio .line .extensao{float:left; widrh:195px;}
+
+#detalheDominio .line .precos_periodos{ float:left; width: 270px;}
+#detalheDominio .line .precos_periodos input{float:left; width:180px;}
+
+
+#detalheDominio .line .auto_config_periodos{float:left; width:230px;}
+#detalheDominio .line .auto_config_periodos ul{ margin:0px;}
+#detalheDominio .line .auto_config_periodos ul li{ list-style:none; margin-bottom:5px;}
+#detalheDominio .line .auto_config_periodos input{ float:right;}
+#precosDominios .tag_green{ float:none;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

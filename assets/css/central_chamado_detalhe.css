@@ -1,0 +1,31 @@
+#mainframe #numero_ticket {display:block; overflow:auto; color:#666; padding: 10px 0 10px; font: 14px "Open sans"; font-weight:600px; border-bottom: 1px #f2f2f2 dotted;  }
+#mainframe #numero_ticket li .espaco-icon{ margin:3px 5px 0 0;}
+#mainframe #numero_ticket li { float:left; padding: 0 10px 0 10px; list-style:none; border-right: 1px #666 dotted; font-size:13px;}
+#mainframe #numero_ticket li b { font-weight:600px;}
+#mainframe #numero_ticket p .btn-link { margin-left:50px;}
+	
+	
+#mainframe #tit_ticket_status { display:block; overflow:auto;}
+#mainframe #tit_ticket_status #tit_ticket { float:left; width:400px; height:auto; font: 18px "Open Sans", Helvetica, sans-serif; font-weight:bold; padding-top: 15px; letter-spacing:-1px;}
+#mainframe #tit_ticket_status #ticket_status { float:right; }
+#mainframe #tit_ticket_status #ticket_status .label { color:white; font-size:20px;padding:5px 10px; display:block; overflow:auto; font-family:"Franklin Gothic Medium Cond"; }
+
+
+
+#mainframe .ticket_pergunta_resposta {display:block; overflow:auto; height:auto; width:660px; background: #F4F4F4; padding: 10px 15px 0px 15px; }
+
+#mainframe .ticket_pergunta_resposta .ticket_nome_data { display:block; overflow:auto; border-bottom: dotted 1px #e0dede; padding-bottom:5px;}
+#mainframe .ticket_pergunta_resposta .ticket_nome_data .ticket_nome i{ margin:2px 5px 0 0;}
+#mainframe .ticket_pergunta_resposta .ticket_nome_data .ticket_nome .icon-support2 { background: url(<?=site_url()?>/assets/img/icons/24x24/support2.png) no-repeat; width:16px; height:16px; padding-top:3px; float:left;}
+#mainframe .ticket_pergunta_resposta .ticket_nome_data .ticket_nome { float:left; width:300px; height:auto; font-family:'Open sans', Arial;font-size:14px; white-space:nowrap; font-weight:500;}
+#mainframe .ticket_pergunta_resposta .ticket_nome_data .ticket_data { float:right; overflow-y: hidden; padding:0 5px 0px 5px; font-family:'Open sans', Arial;font-size:14px; white-space:nowrap;}
+
+#mainframe .ticket_pergunta_resposta .ticket_area_texto{ display:block; overflow:auto; color:#666; text-align:justify; margin-bottom:10px; padding-top:10px;font-family:'Open sans', Arial;font-size:13px;}
+
+
+#mainframe #ticket_resposta { display:block; overflow:auto; margin:10px 0 10px 0; }
+#mainframe #ticket_resposta b { float:left; font-family:'Open sans', Arial; font-size:14px; font-weight:600;}
+#mainframe #ticket_resposta button { margin-right:10px; font-size:12px;}
+#mainframe #ticket_resposta #ticket_resposta_textarea {float:left; width:676px; height:95px; resize:none;}
+
+#mainframe #ticket_resposta #texto_checkbox { font-family:'Open sans', Arial; font-size:13px;}

@@ -1,0 +1,223 @@
+#mainframe{ font-family:Tahoma, Geneva, sans-serif; display:block; overflow:auto; padding:15px; min-height:300px;}
+
+#mainframe .nav{ margin-bottom:0px; }
+#mainframe .tab-content{border: 1px solid #DDD;border-top:none;font-family:Tahoma, Arial, Helvetica, sans-serif;}
+
+.nav li a{
+text-decoration:none; 
+text-transform:none; 
+font-size:11px;
+padding-top: 9px;
+padding-bottom: 9px;
+border: 1px solid transparent;
+-webkit-border-radius: 4px 4px 0 0;
+-moz-border-radius: 4px 4px 0 0;
+border-radius: 4px 4px 0 0;
+color: #666666;
+text-decoration: none;
+background:#eee;
+height:35px;
+}
+
+.nav li a:hover{ background:#e1e1e1;}
+#mainframe .nav .active{ background:none;}
+#mainframe .nav .active a{color: #454545; text-decoration: none;}
+
+.nav li a .img_tbs{ float:left; margin-right:5px;}
+.nav li a .tit_tabs{ float:left; font-family:"Open Sans", Arial, Helvetica, sans-serif}
+.nav li a .tit_tabs b{ font:14px "Open Sans", Arial; font-weight:800;}
+
+#mainframe	#detalhes_faturas { display:block; overflow:auto; margin:10px 0px 10px 0; background:#f4f4f4; padding: 10px 15px 5px 15px;}
+#mainframe	#detalhes_faturas i { float:left;}
+#mainframe	#detalhes_faturas p b { float:left; margin-top:5px; margin-left:15px; font-size:14px; font: 'Open Sans', Arial, Helvetica, sans-serif 12px ;}
+
+#mainframe .tab-content #extrato_finance{ font-family:Tahoma, Geneva, sans-serif; font-size:12px; padding:10px; color:#666666;}
+#mainframe .tab-content #extrato_finance p{ font-family:Tahoma, Geneva, sans-serif; line-height:12px;}
+#mainframe .tab-content #extrato_finance thead{ background:#eee;}
+
+#mainframe #extrato_finance #ver_mes{ text-align:center; margin-bottom:10px}
+
+#mainframe .tab-content #pagar{ font-family:Tahoma, Geneva, sans-serif; font-size:12px; padding:10px; color:#666666;}
+#mainframe .tab-content #pagar #tit{ font-size:14px; font-weight:600; display:block; overflow:auto; padding-bottom:5px; border-bottom:1px solid #dddddd; margin-bottom:5px;}
+#mainframe .tab-content #pagar #situacao{ color:#090; text-align:center; display:block; overflow:auto; padding: 5px 0px; font-size:14px;}
+#mainframe .tab-content #pagar ul{ margin-bottom:15px;}
+
+#mainframe .tab-content #dados_bancarios{ font-family:Tahoma, Geneva, sans-serif; font-size:12px; padding:10px; color:#666666;}
+#mainframe .tab-content #dados_bancarios #tit{ font-size:14px; font-weight:600; display:block; overflow:auto; padding-bottom:5px; border-bottom:1px solid #dddddd; margin-bottom:5px;}
+#mainframe .tab-content #dados_bancarios #situacao{ color:#090; text-align:center; display:block; overflow:auto; padding: 5px 0px; font-size:14px;}
+#mainframe .tab-content #dados_bancarios ul{ margin-bottom:15px;}
+
+#mainframe .tab-content #dados_bancarios{ font-family:Tahoma, Geneva, sans-serif; font-size:12px; padding:10px; color:#666666;}
+#mainframe .tab-content #dados_bancarios p{ font-family:Tahoma, Geneva, sans-serif; line-height:12px;}
+#mainframe .tab-content #dados_bancarios thead{ background:#eee;}
+
+#tabela_periodicidade{font: 11px "Open Sans", Helvetica, sans-serif;width: 100%;font-weight: 600;margin: 0px;text-transform: uppercase;}
+
+#pagar #tabela_periodicidade tr td{ text-align:left;}
+#pagar #tabela_periodicidade thead{ background-color:#e6e6e6;}
+
+#pagar #tabela_formaPagamento tr td{ text-align:left;}
+#pagar #tabela_formaPagamento thead{ background-color:#e6e6e6;}
+.tabela_cicloPagamento{font: 12px "Open Sans", Helvetica, sans-serif;width: 100%;font-weight: 600;margin: 0px;text-transform: uppercase; }
+#pagar .tabela_cicloPagamento tr td{ text-align:left;}
+#pagar .tabela_cicloPagamento thead{ background-color:#eeeeee;}
+#pagar #alteracao-btn{ display:block; overflow:auto; margin-bottom:15px; margin:5px 5px 5px 0px;}
+
+#pagar .tabela_cicloPagamento .label{
+font: 11px "Open Sans", Helvetica, sans-serif;
+float: right;
+width: auto;
+font-weight: 600;
+margin: 0px;
+color: white;
+padding: 3px 8px;
+text-transform: uppercase;
+}
+
+#dados_bancarios .tabela_cicloPagamento .label{
+font: 11px "Open Sans", Helvetica, sans-serif;
+float: right;
+width: auto;
+font-weight: 600;
+margin: 0px;
+color: white;
+padding: 3px 8px;
+text-transform: uppercase;
+}
+
+#pagar #btn1{
+float:left;
+text-transform: none;
+font-size: 11px;
+padding:10px;
+border: 1px solid transparent;
+-webkit-border-radius: 4px;
+-moz-border-radius:4px;
+border-radius: 4px;
+color: #666;
+text-decoration: none;
+background: #EEE;
+margin-right:15px;
+} 
+
+#pagar #btn1:hover{background:#dddddd;}
+
+#pagar #btn2{
+float:left;
+text-transform: none;
+font-size: 11px;
+padding:10px;
+border: 1px solid transparent;
+-webkit-border-radius: 4px 4px 0 0;
+-moz-border-radius: 4px 4px 0 0;
+border-radius: 4px 4px 0 0;
+color: #666;
+text-decoration: none;
+background: #EEE;
+}
+#pagar #btn2:hover{background:#dddddd;}
+
+
+#mainframe .tab-content #dados_bancarios{ font-family:Tahoma, Geneva, sans-serif; font-size:12px; padding:10px; color:#666666;}
+#mainframe .tab-content #dados_bancarios #tabela_dadosBancarios {float:left; width:200px;margin:0px 0px 0px 18%;border:1px solid #DDD; text-align:center; margin-bottom:10px;} 
+#mainframe .tab-content #dados_bancarios #tabela_dadosBancarios tr .icone_banco{ background:none; text-align:center;}
+#mainframe .tab-content #dados_bancarios #tabela_dadosBancarios tr .dados{color: #777; background-color: #E6E6E6;}
+
+#mainframe tr #t1{ width:5%;}
+#mainframe tr #t2{ width:15%;}
+#mainframe tr #t3{ width:60%;}
+
+.modal-header {
+font: 18px "Open Sans", Helvetica, sans-serif;
+}
+
+
+ /* Janela Modal - ALTERAR FORMA DE PAGAMENTO */
+#Alterar_formaPagamento { display:block; width:400px;}
+#Alterar_formaPagamento .modal-header h3 b {font: 18px "Open Sans", Helvetica, sans-serif; font-weight:bold;}
+#Alterar_formaPagamento .modal-body {background-color: whiteSmoke;}
+#Alterar_formaPagamento .modal-body #bandeiras { display:block; overflow:auto;}
+#Alterar_formaPagamento .modal-body ul { margin:auto; width:300px;}
+#Alterar_formaPagamento .modal-body ul li{ list-style:none; float:left; margin-right:10px; text-align:center;}
+#Alterar_formaPagamento .modal-body ul li img{ display:block;}
+#Alterar_formaPagamento .modal-body #detalhes_Cartao{ display:block; overflow:auto;}
+#Alterar_formaPagamento #dados_cartao { float:left; width:auto; font: 13px "Open Sans", "Franklin Gothic Medium Cond"; margin-right:10px; }
+#Alterar_formaPagamento #dados_cartao input{ display:block;}
+#Alterar_formaPagamento #dados_cartao .span1 {width:110px;}
+#Alterar_formaPagamento #dados_cartao .span3 {width:220px;}
+#Alterar_formaPagamento .modal-body .faturaUnica {font: 13px "Open Sans", "Franklin Gothic Medium Cond"; }
+
+ /* Janela Modal - ALTERAR CICLO DE PAGAMENTO */
+
+#Alterar_cicloPagamento { display:block; width:400px;}
+#Alterar_cicloPagamento .modal-header h3 b {font: 18px "Open Sans", Helvetica, sans-serif; font-weight:bold;}
+#Alterar_cicloPagamento .modal-body {background-color: whiteSmoke;}
+#Alterar_cicloPagamento .modal-body #tipoPagamento { display:block; overflow:auto;}
+
+#Alterar_cicloPagamento .modal-body ul { display:block;}
+#Alterar_cicloPagamento .modal-body ul li{ list-style:none; display:block; }
+#Alterar_cicloPagamento .modal-body ul li label { display:block; overflow:auto; }
+#Alterar_cicloPagamento .modal-body ul li label .input{ float:left; margin: 0 5px 0 0;}
+#Alterar_cicloPagamento .modal-body ul li label .tipoPagamento{ display:block; overflow:auto; margin-top:5px; font: 13px "Open Sans", "Franklin Gothic Medium Cond";}
+
+ /* Janela Modal - ALTERAR CICLO DE PAGAMENTO */
+
+#detalhe_fatura { display:block; width:600px; font-family: "Open Sans", Helvetica, sans-serif;}
+#detalhe_fatura #topoFatura{ display:block; overflow:auto; margin-bottom:15px}
+#detalhe_fatura #topoFatura #topoFatura_esquerda{ float:left; font:12px Tahoma, Geneva, sans-serif;}
+#detalhe_fatura #topoFatura #topoFatura_esquerda li{ list-style:none; font-size:13px;}
+
+#detalhe_fatura #topoFatura #topoFatura_direita{ float:right;}
+#detalhe_fatura #topoFatura #topoFatura_direita li{ list-style:none; font-size:13px; text-align:right;}
+
+#detalhe_fatura #totalProjeto{ display:block; overflow:auto; }
+#detalhe_fatura #totalProjeto #total{ float:right;}
+#detalhe_fatura #totalProjeto #total li{ list-style:none;font-weight:bold; text-align:right;}
+#detalhe_fatura #totalProjeto #total .valor-negrito{ font: 23px "Open Sans", Helvetica, sans-serif;font-weight:bold; }
+
+#detalhe_fatura #totalProjeto #projeto p{ font-size:14px; margin-top:10px; margin-top:15px;}
+#detalhe_fatura #totalProjeto #projeto{float:left;}
+#detalhe_fatura #totalProjeto #projeto li{ list-style:none; text-align:right;}
+
+#detalhe_fatura #tabela_faturaDetalhes{border:1px solid #d7d7d7;}
+#detalhe_fatura #tabela_faturaDetalhes thead{ background-color:#eeeeee; color:#666; font-size:15px; font-family: "Open Sans", Helvetica, sans-serif; font-weight:bold;}
+#detalhe_fatura #tabela_faturaDetalhes tr td{font-size:13px; font-family: "Tahoma", Helvetica, sans-serif;}
+#detalhe_fatura #tabela_faturaDetalhes tr td span{ font-size:11px;}
+
+#detalhe_fatura #btn-imprimirPagar #btn-imprirmir{
+float:left;
+text-transform: none;
+font-size: 11px;
+padding:10px;
+border: 1px solid transparent;
+-webkit-border-radius: 4px;
+-moz-border-radius:4px;
+border-radius: 4px;
+color: #666;
+text-decoration: none;
+background: #EEE;
+margin-right:15px;
+}
+
+#detalhe_fatura #btn-imprimirPagar #btn-pagar{
+float:left;
+text-transform: none;
+font-size: 11px;
+padding:10px;
+border: 1px solid transparent;
+-webkit-border-radius: 4px;
+-moz-border-radius:4px;
+border-radius: 4px;
+color: #666;
+text-decoration: none;
+background: #EEE;
+margin-right:15px;
+}
+
+#detalhe_fatura .modal-body{ overflow-y: hidden;}
+#detalhe_fatura #bandeiras { float:left; width:280px;}
+#detalhe_fatura #bandeiras ul{ margin:auto; width:280px; height:40px;}
+#detalhe_fatura #bandeiras ul li{ list-style:none; float:left; margin-right:10px; text-align:center;}
+#detalhe_fatura #bandeiras ul li img{ display:block;}
+.icon-dollar{ width:16px; height:14px; background: url(<?=site_url()?>/assets/img/icons/24x24/dollar.png) no-repeat;}
+

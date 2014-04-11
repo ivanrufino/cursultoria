@@ -1,0 +1,41 @@
+*{margin:0; padding:0;}
+body {
+	background-image: url(../../images/header/bg_login.jpg);
+	background-position:top right;
+	background-repeat:no-repeat;
+	background-color:#fcfcfc;
+}
+#wrapp{width:591px; margin:0 auto;}
+#logo{ float:left; width:100%; height:40px;}
+#content{ float:left; width:100%; background:#f6f5f3; margin-top:10px; border:1px solid #e9e9e9;}
+#footer{ float:left; width:100%; margin-top:5px; font:11px Tahoma; color:#444; margin-bottom:20px;}
+#col-left{ float:left; margin-bottom:5px; padding-bottom:10px; background:#FFFFFF; border:1px solid #e9e9e9; margin-left:5px; margin-top:5px;}
+#col-right{ float:left; height:227px; width:295px; background:url(../../images/login/bg_col-right.gif); margin-left:5px; margin-top:5px;}
+
+.tit_form{ margin-top:19px; margin-left:13px; font:13px Tahoma; font-weight:bold; color:#fe9500;}
+.tit_input{ margin-left:13px; color:#606060; font:12px Tahoma;}
+.input{ border:1px solid #ebebeb; height:15px; padding:3px; background:url(../../images/login/bg_input.gif); width:200px; font:11px Tahoma; margin-top:2px; color:#666666;}
+.submit{ margin-left:13px; margin-top:10px;}
+.little{ font:9px Verdana; color:#999;}
+.verdadeiro{ font:10px Verdana; color:#009933;}
+.falso{ font:10px Verdana; color:#FF0000;}
+.bt_little{ font:9px Verdana; color:#444; margin-top:5px;}
+.warning{ float:right; margin-right:25px; margin-top:15px; font:11px Tahoma; color:#FF0000; font-weight:bold;}
+.register a{ float:right; margin-right:25px; margin-top:5px; font:11px Tahoma; color:#999; text-decoration:none;}
+.register a:hover{ float:right; margin-right:25px; margin-top:5px; font:11px Tahoma; color:#000; text-decoration:underline;}
+.remenber a{ float:right; margin-right:25px; margin-top:15px; font:11px Tahoma; color:#999; text-decoration:none;}
+.remenber a:hover{ float:right; margin-right:25px; margin-top:15px; font:11px Tahoma; color:#000; text-decoration:underline;}
+
+.senha_0{ width:70%; margin-left:5px; height:15px; padding-bottom:2px; border-bottom:2px solid #CCCCCC; font:11px Tahoma; color:#CCCCCC; font-weight:bold;}
+.senha_1{ width:70%; margin-left:5px; height:15px; padding-bottom:2px; border-bottom:2px solid #777777; font:11px Tahoma; color:#777777; font-weight:bold;}
+.senha_2{ width:70%; margin-left:5px; height:15px; padding-bottom:2px; border-bottom:2px solid #3399CC; font:11px Tahoma; color:#3399CC; font-weight:bold;}
+.senha_3{ width:70%; margin-left:5px; height:15px; padding-bottom:2px; border-bottom:2px solid #339933; font:11px Tahoma; color:#339933; font-weight:bold;}
+.senha_4{ width:70%; margin-left:5px; height:15px; padding-bottom:2px; border-bottom:2px solid #6600FF; font:11px Tahoma; color:#6600FF; font-weight:bold;}
+
+.form_list{border:1px solid #ebebeb; height:22px; background:url(../../images/login/bg_input.gif); width:210px; font:12px Tahoma; margin-top:2px; color:#666666;}
+
+.bt_submit{ background:#FF6600; font:12px Tahoma; color:#FFFFFF; padding:2px; border:1px solid #FF3300;}
+.bt_voltar{ background:#999999; font:12px Tahoma; color:#FFFFFF; padding:2px; border:1px solid #666666;}
+
+.ontype{ border:2px solid #0099CC; height:15px; padding:3px; background:url(../../images/login/bg_input.gif); width:200px; font:11px Tahoma; margin-top:2px; color:#666666;}
+.offtype{border:1px solid #ebebeb; height:15px; padding:3px; background:url(../../images/login/bg_input.gif); width:200px; font:11px Tahoma; margin-top:2px; color:#666666;}

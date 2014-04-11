@@ -1,0 +1,20 @@
+
+#gatewaysPagamentos{display: block;margin-top: 10px;overflow: auto;}
+#gatewaysPagamentos .gateways{ overflow:auto; display:block; padding:5px; background-color:#eeeeee; margin-bottom:10px;}
+
+#gatewaysPagamentos .gateways .logotipo_gateways{ float:left; padding:5px; height:50px; width:110px; text-align:center; background-color:white;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px; margin-right:10px;}
+												
+#gatewaysPagamentos .gateways #gateway_moeda{ overflow:auto; height:60px; display:block;}
+#gatewaysPagamentos .gateways #gateway_moeda b{ font:16px "Open Sans", Arial; display:block; color:#333; font-weight:600;}
+#gatewaysPagamentos .gateways #gateway_moeda a{ clear:both; margin-top:10px; margin-right:10px; font:11px "Open Sans", Arial, Helvetica, sans-serif; }
+#gatewaysPagamentos .gateways #gateway_moeda a.btn-link{ font-size:12px;}
+#form_editGateway{margin:10px;}
+
+
+
+
+
+
+
+
+

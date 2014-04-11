@@ -1,0 +1,38 @@
+/*
+.topoPainel { font-family:"Open sans", Arial; font-size:16px; display:block; overflow:auto; height:80px;}
+.topoPainel h1{ float:left; margin:15px 0 0 0; padding:0px; letter-spacing:-1px; font-weight:600; }
+
+body {background:url(assets/img/login/bg_login2.png) right top no-repeat, url(assets/images/background-login.png) left top repeat-x #E3E3E3;}
+background:url(assets/img/login/bg_login2.png) right top no-repeat #E3E3E3; }
+#painelLogin { box-shadow: 0 0 5px #888; padding:15px 15px; background: url(assets/images/background-registration.png) left -30px repeat-x white; height:auto; width: 650px; position: absolute;top: 40%;left: 54%;margin: -205px -357px;}
+#painel-esquerda{ float:left; width:300px; }
+#painelLogin #painel-esquerda .topoPainel img{ margin-top:5px; float:left;}*/
+
+#form-loginCentral { overflow:auto; margin-left:20px; font: 'Open sans', Arial;}
+#form-loginCentral p { display:block; overflow:auto; margin:0px; }
+#form-loginCentral p input{ display:block; overflow:auto; font-size:13px; width:230px;}
+#form-loginCentral p span3{width:210px;}
+#form-loginCentral p font {  text-align:justify; font:11px 'Open sans', Arial; float:right; margin-right:30px}
+
+#form-loginCentral p b {font-family:Arial, Helvetica, sans-serif; font-size: 14px; display:block; margin-bottom:2px; color:#fff; font-weight:normal;}
+
+#form-loginCentral h2{ font:20px "Franklin Gothic Medium Cond"; font-weight:500; margin-bottom:10px; color:#fff; text-transform:uppercase;}
+
+
+.vertical-divider{top: 25px;bottom: 25px;left: 300px;border-left: 1px solid #CFCFCF;border-right: 1px solid white;position: absolute; height:245px;}
+#form-loginCentral #botaoLogin{ margin-top:5px; display:block;}
+#form-loginCentral #botaoLogin a{ text-decoration:none; text-transform:none; font-family:'Open sans', Arial; font-size:13px;}
+#form-loginCentral #botaoLogin input{ margin-left:10px;}
+#form-loginCentral #botaoLogin font { font-family:'Open sans', Arial; font-size:14px;}
+
+#form-loginCentral .alert{ display:block; padding:7px;  margin-top:10px; font:12px Arial, Helvetica, sans-serif; width:230px;}
+#form-loginCentral .alert a{ text-decoration:none; margin-top:3px; font-size:11px;}
+
+/*
+#painelLogin #painel-direita{ float:right; width:335px; font: 'Open Sans', Arial 12px; padding-top:10px;}
+ #painelLogin #painel-direita p { font-family:'Open sans'; font-size:14px;}
+#painelLogin #painel-direita li{font-family:'Open sans'; font-size:14px; line-height:25px; list-style:url(assets/images/arrow-right.png);}
+#painelLogin #painel-direita img{ float:right;}
+
+#painelLogin #footer{ float:left; width:100%; font:10px 'Open sans', Arial; float:right; margin-top:0px}
+*/
