@@ -81,5 +81,5 @@ if (defined('DESENVOLVIMENTO'))
 	}
 
 require_once BASEPATH.'core/CodeIgniter'.EXT;
-
+//comentario
 ?>
