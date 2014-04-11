@@ -20,7 +20,7 @@ if (defined('DESENVOLVIMENTO'))
 	}
 }
 
-	$system_path        = '../_framework';
+	$system_path        = 'system';
 	$application_folder = 'application';
 	
 
