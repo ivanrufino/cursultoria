@@ -20,7 +20,7 @@ class Cadastros extends CI_Controller{
          $this->userKey = $this->session->userdata('userKey');
     }
     
-    public function index(){
+    public function index(){ 
         redirect('cadastros/clientes');
     }
 	
