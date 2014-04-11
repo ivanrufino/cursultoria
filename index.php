@@ -16,7 +16,7 @@ if (defined('DESENVOLVIMENTO'))
 		break;
 
 		default:
-			exit('O ambiente não está configurado corretamente.');
+			exit('O ambiente nï¿½o estï¿½ configurado corretamente.');
 	}
 }
 
@@ -41,7 +41,7 @@ if (defined('DESENVOLVIMENTO'))
 	// Is the system path correct?
 	if ( ! is_dir($system_path))
 	{
-		exit("<p style='font:14px Tahoma, Arial;'>Por favor, verifique se o destino da pasta do sistema <b>GerentePRO</b> está configurada corretamente.<br /> No arquivo de configuração: <b>config.php</b></p>");
+		exit("<p style='font:14px Tahoma, Arial;'>Por favor, verifique se o destino da pasta do sistema <b>GerentePRO</b> estï¿½ configurada corretamente.<br /> No arquivo de configuraï¿½ï¿½o: <b>config.php</b></p>");
 	}
 	
 /*
@@ -81,3 +81,5 @@ if (defined('DESENVOLVIMENTO'))
 	}
 
 require_once BASEPATH.'core/CodeIgniter'.EXT;
+
+?>
