@@ -76,10 +76,10 @@
 
                     <div class="span12">
 
-
+                        teste
 
                         <div class="boxGray" role="region">
-                            <h2 class="titleContent" role="presentation">Meus cursos</h2>
+                            <h2 class="titleContent" role="presentation">Meus cursos</h2> 
                             <?php
                             
                             if ($info_tempo) {

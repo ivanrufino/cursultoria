@@ -11,11 +11,15 @@ class Aluno extends CI_Controller{
         $this->load->model('usuarios_model', 'users');
         $this->load->model('cadastros_model', 'cadastros');
         $this->load->library('form_validation');
-        $this->aluno = $this->session->userdata('usuario');       
+        $this->aluno = $this->session->userdata('usuario'); 
+        $this->load->library('xml');
+        $this->load->helper('xml');
+        
 
 	}
 
-	public function index(){
+        
+       public function index(){
 		redirect('aluno/inicio');
 	}
 
@@ -58,8 +62,13 @@ class Aluno extends CI_Controller{
 		$data['pagina'] = "home";
 		$data['cadastro'] = $this->cadastros->get_id($this->aluno);
                 $data['info_tempo']=$this->cadastros->getTempo($this->aluno);
+                
+                $tempo_total=$this->cadastros->tempoTotal($this->aluno);
+                $data['ciclos_previstos']= $tempo_total / $data['info_tempo']->TEMPO_DISPONIVEL/3600;
+//                $ciclos_previstos." ciclos - Falta arredondar";
                 $data['info_projeto']=$this->cadastros->getProjeto($this->aluno);
-                $this->load->view('central/painel', $data);
+                
+                $this->load->view('central/painel', $data); 
 	}
 
 	public function get_logout(){
